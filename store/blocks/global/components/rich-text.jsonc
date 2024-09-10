@@ -1,0 +1,10 @@
+{
+    "rich-text": { 
+    "props": { 
+      "text": "Hola mundo desde VTEX",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
