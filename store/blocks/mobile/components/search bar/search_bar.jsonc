@@ -1,0 +1,38 @@
+{
+    "overlay-trigger#mobile__search-bar-overlay": {
+        "title": "Container mobile search bar overlay",
+        "children": [
+            "icon#mobile__icon--search-bar",
+            "overlay-layout#mobile__header--overlay"
+        ]
+    },
+    "icon#mobile__icon--search-bar": {
+        "title": "Mobile icon search bar",
+        "props": {
+            "id": "search",
+            "width": 20,
+            "height": 20,
+            "size": 20,
+            "viewBox": "0 0 20 20",
+            "overflow": "visible",
+            "activeClassName": "vtex-store-components-3-x-searchIcon"
+        }
+    },
+    "overlay-layout#mobile__header--overlay": {
+        "title": "Mobile header overlay search bar",
+        "props": {
+            "placement": "left",
+            "transitionComponent": "fadeInLeft",
+            "blockClass": "mobile__header--overlay"
+        },
+        "children": [
+            "search-bar#mobile__search--bar-overlay"
+        ]
+    },
+    "search-bar#mobile__search--bar-overlay": {
+        "props": {
+            "placeholder": "Buscar productos...",
+            "blockClass": "mobile__search--bar-overlay"
+        }
+    }
+}
