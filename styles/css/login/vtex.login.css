@@ -1,0 +1,24 @@
+.label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #1D2734;
+    text-transform: lowercase;
+    padding-left: 0px !important;
+}
+
+.label::first-letter {
+    text-transform: capitalize;
+}
+
+.label::before {
+    content: url("/arquivos/icon_profile.svg");
+}
+
+/*validar no afecte otra clase*/
+:global(.vtex-button__label) {
+    padding-left: 0px !important;
+}

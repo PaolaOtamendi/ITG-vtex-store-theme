@@ -1,0 +1,11 @@
+.styledLinkContent--websites__desktop--header {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #1D2734;
+}
+
+.styledLinkContainer--websites__desktop--header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

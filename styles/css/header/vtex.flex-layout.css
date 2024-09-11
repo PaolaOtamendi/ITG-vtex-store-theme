@@ -1,0 +1,23 @@
+/*-------------- Header mobile custom --------------*/
+.flexRow--container__mobile--header-menu {
+    width: 100%;
+}
+
+.flexRowContent--container__mobile--header-menu {
+    display: flex;
+}
+
+.flexCol--section__two--mobile-header {
+    flex-direction: row;
+    padding-right: 5px;
+}
+
+/*-------------- Header desktop custom --------------*/
+.flexRowContent--section__three--desktop-header {
+    align-items: center;
+}
+
+.flexRowContent--section__three--desktop-header :global(.vtex-store-components-3-x-searchIcon) {
+    width: 20px;
+    height: 20px;
+}
