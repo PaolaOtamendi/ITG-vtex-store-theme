@@ -1,0 +1,144 @@
+{
+    "vtex.menu@2.x:menu#websites__desktop--header": {
+        "title": "Menu websites header desktop",
+        "props": {
+            "blockClass": [
+                "websites__desktop--header"
+            ],
+            "items": [
+                {
+                    "id": "menu-item-store",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/store",
+                        "noFollow": false,
+                        "tagTitle": "Store",
+                        "text": "Store"
+                    }
+                },
+                {
+                    "id": "menu-item-mac",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mac",
+                        "noFollow": false,
+                        "tagTitle": "Mac",
+                        "text": "Mac"
+                    }
+                },
+                {
+                    "id": "menu-item-ipad",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/ipad",
+                        "noFollow": false,
+                        "tagTitle": "iPad",
+                        "text": "iPad"
+                    }
+                },
+                {
+                    "id": "menu-item-iphone",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/iphone",
+                        "noFollow": false,
+                        "tagTitle": "iPhone",
+                        "text": "iPhone"
+                    }
+                },
+                {
+                    "id": "menu-item-watch",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/watch",
+                        "noFollow": false,
+                        "tagTitle": "Watch",
+                        "text": "Watch"
+                    }
+                },
+                {
+                    "id": "menu-item-vision",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/vision",
+                        "noFollow": false,
+                        "tagTitle": "Vision",
+                        "text": "Vision"
+                    }
+                },
+                {
+                    "id": "menu-item-airpods",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/airpods",
+                        "noFollow": false,
+                        "tagTitle": "Airpods",
+                        "text": "Airpods"
+                    }
+                },
+                {
+                    "id": "menu-item-tv&home",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tv-and-home",
+                        "noFollow": false,
+                        "tagTitle": "Tv&home",
+                        "text": "Tv & home"
+                    }
+                },
+                {
+                    "id": "menu-item-entertainment",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/entertainment",
+                        "noFollow": false,
+                        "tagTitle": "Entertainment",
+                        "text": "Entertainment"
+                    }
+                },
+                {
+                    "id": "menu-item-accesories",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/accesories",
+                        "noFollow": false,
+                        "tagTitle": "Accesories",
+                        "text": "Accesories"
+                    }
+                },
+                {
+                    "id": "menu-item-support",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/support",
+                        "noFollow": false,
+                        "tagTitle": "Support",
+                        "text": "Support"
+                    }
+                }
+            ]
+        }
+    }
+}
