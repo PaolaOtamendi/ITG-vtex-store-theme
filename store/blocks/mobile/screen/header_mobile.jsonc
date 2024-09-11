@@ -1,0 +1,8 @@
+{
+    "header-layout.mobile": {
+        "children": [
+            /*"sticky-layout#mobile",*/
+            "header-row#mobile__header--menu"
+        ]
+    }
+}

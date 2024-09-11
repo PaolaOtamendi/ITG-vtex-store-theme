@@ -1,0 +1,6 @@
+.paragraph--prueba__font--face {
+    font-size: 20px;
+    /*font-family: lexend;*/
+    font-family: lexend, sans-serif;
+    color: aqua;
+}

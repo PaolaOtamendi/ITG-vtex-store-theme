@@ -1,0 +1,91 @@
+{
+    "header-row#mobile__header--menu": {
+        "title": "Section mobile header menu",
+        "children": [
+            "flex-layout.row#container__mobile--header-menu"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__header--menu"
+        }
+    },
+    "flex-layout.row#container__mobile--header-menu": {
+        "title": "Container sections mobile header menu",
+        "children": [
+            "flex-layout.col#section__one--mobile-header",
+            "flex-layout.col#section__two--mobile-header"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "topMenuIcons": true,
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": false,
+            "blockClass": "container__mobile--header-menu"
+        }
+    },
+    "flex-layout.col#section__one--mobile-header": {
+        "title": "Section one header mobile",
+        "children": [
+            "flex-layout.row#logo__mobile--header"
+        ],
+        "props": {
+            "blockClass": "section__one--mobile-header"
+        }
+    },
+    "flex-layout.row#logo__mobile--header": {
+        "title": "Container logo mobile header",
+        "children": [
+            "logo#icon__logo--mobile-header"
+        ],
+        "props": {
+            "blockClass": "logo__mobile--header"
+        }
+    },
+    "logo#icon__logo--mobile-header": {
+        "title": "Icon logo mobile header",
+    "props": {
+      "href": "/",
+      "url": "/arquivos/icon_itg_logo.svg",
+      "blockClass": [
+        "icon__logo--mobile-header"
+      ]
+    }
+  },
+
+    "flex-layout.col#section__two--mobile-header": {
+        "title": "Section two header mobile",
+        "children": [
+            "search-bar",
+            "minicart.v2",
+            "drawer#mobile__drawer"
+        ],
+        "props": {
+            "blockClass": "section__two--mobile-header"
+        }
+    },
+    "drawer#mobile__drawer": {
+        "children": []
+    }
+    
+    /*"sticky-layout#mobile": {
+        "children": [
+            "flex-layout.row#mobile"
+        ]
+    },
+    "flex-layout.row#mobile": {
+        "children": [
+            "drawer",
+            "logo",
+            "flex-layout.col#spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },*/
+}
