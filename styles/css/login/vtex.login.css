@@ -8,6 +8,7 @@
     color: #1D2734;
     text-transform: lowercase;
     padding-left: 0px !important;
+    font-family: lexend, sans-serif;
 }
 
 .label::first-letter {
@@ -16,6 +17,7 @@
 
 .label::before {
     content: url("/arquivos/icon_profile.svg");
+    font-family: lexend, sans-serif;
 }
 
 /*validar no afecte otra clase*/

@@ -21,3 +21,22 @@
     width: 20px;
     height: 20px;
 }
+
+/* Prueba de header*/
+.flexRowContent--section__one--desktop-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: fit-content !important;
+}
+
+.flexCol--section__three--desktop-header {
+    flex-direction: row;
+}
+
+.flexCol--section__two--desktop-header {
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCol--section__three--desktop-header {
+    align-items: center;
+    justify-content: center;
+}

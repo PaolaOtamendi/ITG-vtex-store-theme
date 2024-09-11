@@ -1,12 +1,13 @@
 {
-    "header-row#dektop__header--menu": {
+    "header-row#dektop__header--menu2": {
         "title": "Section desktop header menu",
         "children": [
             /*"flex-layout.row#container__desktop--header-menu"*/
-            "flex-layout.row#section__one--desktop-header",
+            "flex-layout.row#section__prueba--desktop-header"
+            /*"flex-layout.row#section__one--desktop-header",
             "flex-layout.row#section__two--desktop-header",
             /*"vtex.menu@2.x:menu#websites__desktop--header",*/
-            "flex-layout.row#section__three--desktop-header"
+            /*"flex-layout.row#section__three--desktop-header"*/
         ],
         "props": {
             "horizontalAlign": "center",
@@ -15,10 +16,12 @@
             "blockClass": "dektop__header--menu"
         }
     },
-    "flex-layout.row#section__one--desktop-header": {
+    "flex-layout.row#section__prueba--desktop-header": {
         "title": "Section one header desktop",
         "children": [
-            "logo#icon__logo--desktop-header"
+            "flex-layout.col#section__one--desktop-header",
+            "flex-layout.col#section__two--desktop-header",
+            "flex-layout.col#section__three--desktop-header"
         ],
         "props": {
             "horizontalAlign": "center",
@@ -28,7 +31,21 @@
             "blockClass": "section__one--desktop-header"
         }
     },
-    "logo#icon__logo--desktop-header": {
+
+    "flex-layout.col#section__one--desktop-header": {
+        "title": "Section one header desktop",
+        "children": [
+            "logo#icon__logo--desktop-header2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
+            "blockClass": "section__one--desktop-header"
+        }
+    },
+    "logo#icon__logo--desktop-header2": {
         "title": "Icon logo desktop header",
         "props": {
             "href": "/",
@@ -36,7 +53,7 @@
             "blockClass": "icon__logo--desktop-header"
         }
     },
-    "flex-layout.row#section__two--desktop-header": {
+    "flex-layout.col#section__two--desktop-header": {
         "title": "Section two header desktop",
         "children": [
             "vtex.menu@2.x:menu#websites__desktop--header"
@@ -47,7 +64,7 @@
             "blockClass": "section__two--desktop-header"
         }
     },
-    "flex-layout.row#section__three--desktop-header": {
+    "flex-layout.col#section__three--desktop-header": {
         "title": "Section three header desktop",
         "children": [
             "overlay-trigger#mobile__search-bar-overlay",
