@@ -4,12 +4,14 @@
         "children": [
             /*"flex-layout.row#container__desktop--header-menu"*/
             "flex-layout.row#section__one--desktop-header",
-            "vtex.menu@2.x:menu#websites__desktop--header",
+            "flex-layout.row#section__two--desktop-header",
+            /*"vtex.menu@2.x:menu#websites__desktop--header",*/
             "flex-layout.row#section__three--desktop-header"
         ],
         "props": {
-            "fullWidth": true,
-            "preventHorizontalStretch": false,
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "fullWidth": "true",
             "blockClass": "dektop__header--menu"
         }
     },
@@ -21,9 +23,8 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
-            /*"preventHorizontalStretch": false,*/
-            "preventVerticalStretch": true,
-            "fullWidth": true,
+            "preventVerticalStretch": false,
+            "preventHorizontalStretch": false,
             "blockClass": "section__one--desktop-header"
         }
     },
@@ -35,29 +36,37 @@
             "blockClass": "icon__logo--desktop-header"
         }
     },
-    /*"flex-layout.col#section__two--desktop-header": {
+    "flex-layout.row#section__two--desktop-header": {
         "title": "Section two header desktop",
         "children": [
-
+            "vtex.menu@2.x:menu#websites__desktop--header"
         ],
         "props": {
-
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "section__two--desktop-header"
         }
-    },*/
+    },
     "flex-layout.row#section__three--desktop-header": {
         "title": "Section three header desktop",
         "children": [
             "overlay-trigger#mobile__search-bar-overlay",
             "minicart.v2",
-            "login"
+            "login#desktop__button--login"
+            /*"login"*/
         ],
         "props": {
-            "horizontalAlign": "center",
+            "horizontalAlign": "left",
             "verticalAlign": "center",
-            "preventHorizontalStretch": false,
-            "preventVerticalStretch": true,
-            "fullWidth": true,
+            "preventHorizontalStretch": true,
             "blockClass": "section__three--desktop-header"
+        }
+    },
+    "login#desktop__button--login": {
+        "props": {
+            "iconLabel": "Sign in",
+            /*"showIconProfile": true,*/
+            "blockClass": "desktop__button--login"
         }
     }
 }
