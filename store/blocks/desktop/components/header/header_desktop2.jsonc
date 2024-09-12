@@ -2,7 +2,6 @@
     "header-row#dektop__header--menu2": {
         "title": "Section desktop header menu",
         "children": [
-            /*"flex-layout.row#container__desktop--header-menu"*/
             "flex-layout.row#section__prueba--desktop-header"
             /*"flex-layout.row#section__one--desktop-header",
             "flex-layout.row#section__two--desktop-header",
@@ -71,7 +70,6 @@
             "minicart.v2#global__minicart--header",
             /*"minicart.v2",*/
             "login#desktop__button--login"
-            /*"login"*/
         ],
         "props": {
             "horizontalAlign": "left",

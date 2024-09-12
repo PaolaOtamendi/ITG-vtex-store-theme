@@ -13,7 +13,6 @@
         "title": "Container sections mobile header menu",
         "children": [
             "flex-layout.col#section__one--mobile-header",
-            /*"logo#icon__logo--mobile-header",*/
             "flex-layout.col#section__two--mobile-header"
         ],
         "props": {
@@ -28,26 +27,13 @@
     "flex-layout.col#section__one--mobile-header": {
         "title": "Section one header mobile",
         "children": [
-            /*"flex-layout.row#logo__mobile--header"*/
             "logo#icon__logo--mobile-header"
         ],
         "props": {
-            /*"horizontalAlign": "center",*/
             "verticalAlign": "middle",
-            /*"preventVerticalStretch": true,
-            "preventHorizontalStretch": false,*/
             "blockClass": "section__one--mobile-header"
         }
     },
-    /*"flex-layout.row#logo__mobile--header": {
-        "title": "Container logo mobile header",
-        "children": [
-            "logo#icon__logo--mobile-header"
-        ],
-        "props": {
-            "blockClass": "logo__mobile--header"
-        }
-    },*/
     "logo#icon__logo--mobile-header": {
         "title": "Icon logo mobile header",
         "props": {
@@ -66,15 +52,12 @@
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "bottom",
-            /*"preventVerticalStretch": true,
-            "preventHorizontalStretch": false,*/
             "blockClass": "section__two--mobile-header"
         }
     },
     "flex-layout.row#search__bar--mobile-header": {
         "title": "Container search bar mobile header",
         "children": [
-            /*"search-bar"*/
             "overlay-trigger#mobile__search-bar-overlay"
         ],
         "props": {

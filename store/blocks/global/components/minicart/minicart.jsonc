@@ -3,7 +3,7 @@
         "title": "Global Minicart to header",
         "props": {
             "MinicartIcon": "icon-cart#minicart__icon--header",
-            "blockClass": "minicart_container",
+            "blockClass": "global__minicart--header",
             "backdropMode": "visible"
         },
         "children": [
