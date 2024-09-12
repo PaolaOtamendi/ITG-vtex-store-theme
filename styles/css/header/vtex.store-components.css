@@ -1,4 +1,7 @@
 .logoContainer--icon__logo--desktop-header {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
+}
+
+.logoContainer--icon__logo--mobile-header {
+    padding: 0px;
 }

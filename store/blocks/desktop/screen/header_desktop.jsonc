@@ -1,8 +1,7 @@
 {
     "header-layout.desktop": {
     "children": [
-      "header-row#dektop__header--menu2"
-      /*"header-row#dektop__header--menu"*/
+      "header-row#dektop__header--menu"
     ]
   }
 }

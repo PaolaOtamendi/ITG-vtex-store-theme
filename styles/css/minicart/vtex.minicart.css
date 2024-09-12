@@ -1,3 +1,20 @@
-.minicartContainer--global__minicart--header {
-    padding-bottom: 0.5rem;
+.minicartWrapperContainer--global__minicart--header {
+    height: 20px;
+}
+
+.openIconContainer--global__minicart--header {
+    padding: 0px;
+}
+
+.minicartIconContainer--global__minicart--header :global(.vtex-store-icons-0-x-cartIcon) {
+    height: 16px;
+    width : 16px;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .minicartIconContainer--global__minicart--header :global(.vtex-store-icons-0-x-cartIcon) {
+        height: 20px;
+        width : 20px;
+    }
 }

@@ -1,12 +1,16 @@
 .styledLinkContent--websites__desktop--header {
-    font-size: 12px;
+    font-size  : 12px;
     font-weight: 300;
     line-height: 15px;
-    color: #1D2734;
+    color      : #1D2734;
     font-family: lexend, sans-serif;
 }
 
 .styledLinkContainer--websites__desktop--header {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin : 0;
+    padding: 0;
+}
+
+.menuContainer--websites__desktop--header {
+    gap: 16px;
 }

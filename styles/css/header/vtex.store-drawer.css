@@ -1,0 +1,13 @@
+.openIconContainer {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 24px;
+    height         : 24px;
+    padding        : 0px;
+}
+
+.menuIcon {
+    height: 11.5px;
+    width : 17.5px;
+}
