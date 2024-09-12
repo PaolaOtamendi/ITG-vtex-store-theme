@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#global__title--home": {
+        "title": "Container global title home",
+        "children": [
+            "rich-text#title__home--text"
+        ],
+        "props": {
+            "blockClass": "global__title--home"
+        }
+    },
+    "rich-text#title__home--text": {
+        "title": "Title home text",
+        "props": {
+            "text": "Tienda.",
+            "blockClass": "title__home--text"
+        }
+    }
+}

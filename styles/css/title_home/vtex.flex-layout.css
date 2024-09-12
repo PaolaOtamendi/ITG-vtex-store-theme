@@ -1,0 +1,17 @@
+.flexRow--global__title--home {
+    margin-top  : 32px;
+    margin-left : 16px;
+    margin-right: 20px;
+}
+
+.flexRow--global__title--home :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .flexRow--global__title--home {
+        margin-top  : 48px;
+        margin-left : 72px;
+    }
+}

@@ -1,0 +1,27 @@
+.paragraph--title__home--text {
+    margin     : 0px;
+    font-family: lexend, sans-serif;
+    font-weight: 600;
+    font-size  : 24px;
+    line-height: 30px;
+    color      : #1D2734;
+    width      : 324px;
+    height     : 60px;
+
+}
+
+.paragraph--title__home--text::after {
+    content    : " La mejor manera de comprar lo que amas.";
+    color      : #1D2734;
+    font-weight: 300;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .paragraph--title__home--text {
+        font-size  : 40px;
+        line-height: 50px;
+        width      : 540px;
+        height     : 100px;
+    }
+}
