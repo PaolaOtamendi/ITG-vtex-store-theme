@@ -1,0 +1,23 @@
+{
+    "minicart.v2#global__minicart--header": {
+        "title": "Global Minicart to header",
+        "props": {
+            "MinicartIcon": "icon-cart#minicart__icon--header",
+            "blockClass": "minicart_container",
+            "backdropMode": "visible"
+        },
+        "children": [
+        ]
+    },
+    "icon-cart#minicart__icon--header": {
+        "title": "minicart icon header view",
+        "props": {
+            "id": "minicart",
+            "width": 20,
+            "height": 20,
+            "size": 20,
+            "viewBox": "0 0 20 20",
+            "blockClass": "minicart_icon--header"
+        }
+    }
+}
