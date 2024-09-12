@@ -1,0 +1,8 @@
+{
+    "responsive-layout.tablet#home__store--tablet": {
+        "title": "Section home store theme tablet",
+        "children": [
+
+        ]
+    }
+}
