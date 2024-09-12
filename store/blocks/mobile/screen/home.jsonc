@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#home__store--mobile": {
+        "title": "Section home store theme mobile",
+        "children": [
+            "flex-layout.row#global__top--banner"
+        ]
+    }
+}

@@ -1,8 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
+      /*"rich-text",*/
       "responsive-layout.desktop#home__store--desktop",
+      "responsive-layout.mobile#home__store--mobile",
       "responsive-layout.phone#home__store--phone",
       "responsive-layout.tablet#home__store--tablet"
     ]
