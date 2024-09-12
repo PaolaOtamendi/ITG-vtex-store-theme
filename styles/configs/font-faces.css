@@ -2,3 +2,8 @@
     font-family: 'lexend';
     src: url("assets/fonts/Lexend-VariableFont_wght.ttf"),url("assets/fonts/Lexend-VariableFont_wght_1_.woff");
   }
+
+@font-face {
+    font-family: 'poppins';
+    src: url("assets/fonts/Poppins-Regular.ttf"),url("assets/fonts/Poppins-Regular.woff");
+  }

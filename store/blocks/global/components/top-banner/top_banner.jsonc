@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#global__top--banner": {
+        "title": "Container global top banner",
+        "children": [
+            "flex-layout.col#container__top-banner--image",
+            "flex-layout.col#container__top-banner--text",
+            "flex-layout.col#container__top--banner-icon"
+        ],
+        "props": {
+            "blockClass": "global__top--banner"
+        }
+    },
+    "flex-layout.col#container__top-banner--image": {
+        "title": "Container top banner image",
+        "children": [
+            "image#top__banner--image"
+        ],
+        "props": {
+            "blockClass": "container__top-banner--image"
+        }
+    },
+    "image#top__banner--image": {
+        "title": "Container top banner image",
+        "props": {
+            "src": "/arquivos/delivery_scooter.svg",
+            "blockClass": "top__banner--image"
+        }
+    },
+    "flex-layout.col#container__top-banner--text": {
+        "title": "Container top banner text",
+        "children": [
+            "rich-text#top__banner--text"
+        ],
+        "props": {
+            "blockClass": "container__top-banner--text"
+        }
+    },
+    "rich-text#top__banner--text": {
+        "title": "Text top banner",
+        "props": {
+            "text": "Conoce el nuevo álbum de The Weekend con 50% a 5.00 USD antes del lanzamiento [Comprar álbum](#)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text__top--banner",
+            "link": {
+                "props": {
+                    "label": "",
+                    "href": "#"
+                }
+            }
+        }
+    },
+    "flex-layout.col#container__top--banner-icon": {
+        "title": "Container top banner close icon",
+        "children": [
+            "icon#top__banner--close-icon"
+        ],
+        "props": {
+            "blockClass": "container__top--banner-icon"
+        }
+    },
+    "icon#top__banner--close-icon": {
+        "props": {
+            "id": "close",
+            "width": 16,
+            "height": 16,
+            "size": 16,
+            "viewBox": "0 0 16 16",
+            "overflow": "visible",
+            "blockclass": "top__banner--close-icon"
+        }
+    }
+}
