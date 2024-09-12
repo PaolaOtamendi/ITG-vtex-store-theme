@@ -84,7 +84,8 @@
     "flex-layout.row#minicart__mobile-header": {
         "title": "Container minicart mobile header",
         "children": [
-            "minicart.v2"
+            "minicart.v2#global__minicart--header"
+            /*"minicart.v2"*/
         ],
         "props": {
             "blockClass": "minicart__mobile-header"

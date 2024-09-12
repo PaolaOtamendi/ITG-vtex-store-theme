@@ -68,7 +68,8 @@
         "title": "Section three header desktop",
         "children": [
             "overlay-trigger#mobile__search-bar-overlay",
-            "minicart.v2",
+            "minicart.v2#global__minicart--header",
+            /*"minicart.v2",*/
             "login#desktop__button--login"
             /*"login"*/
         ],
