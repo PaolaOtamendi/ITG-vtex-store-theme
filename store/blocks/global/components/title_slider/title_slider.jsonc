@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#global__title--slider": {
+        "title": "Container global title slider",
+        "children": [
+            "rich-text#title__slider--text"
+        ],
+        "props": {
+            "blockClass": "global__title--slider"
+        }
+    },
+    "rich-text#title__slider--text": {
+        "title": "Title slider text",
+        "props": {
+            "text": "**An amazing product**. La mejor manera de comprar lo que amas",
+            "blockClass": "title__slider--text"
+        }
+    }
+}

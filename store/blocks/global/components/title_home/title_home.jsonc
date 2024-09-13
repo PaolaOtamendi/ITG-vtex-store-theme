@@ -11,7 +11,7 @@
     "rich-text#title__home--text": {
         "title": "Title home text",
         "props": {
-            "text": "Tienda.",
+            "text": "**Tienda**. La mejor manera de comprar lo que amas",
             "blockClass": "title__home--text"
         }
     }
