@@ -3,7 +3,8 @@
         "title": "Section home store theme desktop",
         "children": [
             "flex-layout.row#global__top--banner",
-            "flex-layout.row#global__title--home"
+            "flex-layout.row#global__title--home",
+            "flex-layout.row#global__categories--home"
         ]
     }
 }

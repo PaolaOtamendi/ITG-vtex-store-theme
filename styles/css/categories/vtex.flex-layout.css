@@ -1,0 +1,77 @@
+.flexRow--global__categories--home :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
+}
+
+.flexRow--global__categories--home {
+    margin-top : 24px;
+    margin-left: 16px;
+}
+
+.flexRowContent--global__categories--home {
+    overflow: auto;
+    height  : 100%;
+    gap     : 10.36px;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardContainer) {
+    display        : flex;
+    flex-direction : column-reverse;
+    justify-content: normal;
+    width          : 117.62px;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+    margin: 0px;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-button) {
+    background-color: transparent;
+    border          : none;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-button__label) {
+    font-family   : lexend, sans-serif;
+    font-size     : 12px;
+    font-weight   : 500;
+    line-height   : 15px;
+    color         : #1D2734;
+    text-transform: lowercase;
+    padding       : 0%;
+    white-space   : nowrap;
+    align-items   : end;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardImageContainer) {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 100%;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardImage) {
+    max-width: 100%;
+}
+
+.flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardTextContainer) {
+    padding: 0%;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .flexRow--global__categories--home {
+        margin-top : 50px;
+        margin-left: 46px;
+    }
+
+    .flexRowContent--global__categories--home {
+        gap: 14px;
+    }
+
+    .flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardContainer) {
+        width: 100%;
+    }
+
+    .flexRowContent--global__categories--home :global(.vtex-store-components-3-x-infoCardImageContainer) {
+        width: 100%;
+    }
+}

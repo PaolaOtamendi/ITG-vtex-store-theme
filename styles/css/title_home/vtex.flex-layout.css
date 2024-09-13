@@ -11,7 +11,7 @@
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
     .flexRow--global__title--home {
-        margin-top  : 48px;
-        margin-left : 72px;
+        margin-top : 48px;
+        margin-left: 72px;
     }
 }

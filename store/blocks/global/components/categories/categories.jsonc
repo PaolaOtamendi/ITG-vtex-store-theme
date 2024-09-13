@@ -1,0 +1,118 @@
+{
+    "flex-layout.row#global__categories--home": {
+        "title": "Global categories home",
+        "children": [
+            "info-card#categorie__tv",
+            "info-card#categorie__smartphones",
+            "info-card#categorie__apple",
+            "info-card#categorie__tablet",
+            "info-card#categorie__computers",
+            "info-card#categorie__disk",
+            "info-card#categorie__mersh",
+            "info-card#categorie__books"
+        ],
+        "props": {
+            "blockClass": "global__categories--home",
+            "flexDirection": "row",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": false
+        }
+    },
+    "info-card#categorie__tv": {
+        "props": {
+            "id": "categorie tv",
+            "imageUrl": "/arquivos/categorie_tv.svg",
+            "callToActionText": "TV",
+            "callToActionUrl": "/pagina-tv",
+            "blockClass": "categorie__tv",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__smartphones": {
+        "props": {
+            "id": "categorie smartphones",
+            "imageUrl": "/arquivos/categorie_smart.svg",
+            "callToActionText": "smartphones",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__smartphones",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__apple": {
+        "props": {
+            "id": "categorie apple watch",
+            "imageUrl": "/arquivos/categorie_apple.svg",
+            "callToActionText": "Apple Watch",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__apple",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__tablet": {
+        "props": {
+            "id": "categorie tablet",
+            "imageUrl": "/arquivos/cat_ipad.svg",
+            "callToActionText": "Tablets",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__tablet",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__computers": {
+        "props": {
+            "id": "categorie computers",
+            "imageUrl": "/arquivos/cat_computer.svg",
+            "callToActionText": "Computers",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__computers",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__disk": {
+        "props": {
+            "id": "categorie disk",
+            "imageUrl": "/arquivos/cat_disk.svg",
+            "callToActionText": "Disk ITG",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__disk",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__mersh": {
+        "props": {
+            "id": "categorie mersh",
+            "imageUrl": "/arquivos/cat_mersh.svg",
+            "callToActionText": "Mersh",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__mersh",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    },
+    "info-card#categorie__books": {
+        "props": {
+            "id": "categorie books",
+            "imageUrl": "/arquivos/cat_books.svg",
+            "callToActionText": "Books",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "categorie__books",
+            "textAlignment": "center",
+            "fetchpriority": "auto",
+            "preload": true
+        }
+    }
+}
