@@ -14,4 +14,8 @@
         margin-top  : 48px;
         margin-left : 72px;
     }
+
+    .flex-layout-0-x-flexRow--global__title--home :global(.vtex-store-components-3-x-container) {
+        margin: 0px !important;
+    }
 }

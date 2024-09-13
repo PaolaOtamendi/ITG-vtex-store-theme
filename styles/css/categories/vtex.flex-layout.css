@@ -1,0 +1,13 @@
+.flexRow--global__categories--home {
+    margin-top: 50px;
+    overflow: auto;
+    overflow-y: hidden;
+    height    : max-content;
+}
+
+.flexRowContent--global__categories--home {
+    display    : flex;
+    /*min-width: 344px;
+    min-height : 106.68px;*/
+    height     : 106.68px;
+}
