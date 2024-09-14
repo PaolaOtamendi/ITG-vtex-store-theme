@@ -5,7 +5,10 @@
             "flex-layout.row#global__top--banner",
             "flex-layout.row#global__title--home",
             "flex-layout.row#global__categories--home",
+            "flex-layout.row#global__title--slider",
+            "flex-layout.row#global__home--slide-1",
             "flex-layout.row#global__title--slider"
+            /*"flex-layout.row#global__home--slide-2"*/
         ]
     }
 }

@@ -1,0 +1,79 @@
+.flexRow--global__home--slide-1 {
+    margin-top: 26px;
+}
+
+.flexCol--container__first--info--card-slider {
+    background-color: #ffff;
+}
+
+.flexCol--container__third--info--card-slider {
+    background-color: #ffff;
+}
+
+.flexCol--container__second--info--card-slider {
+    background-color: #1D2734;
+}
+
+.flexCol--container__four--info--card-slider {
+    background-color: #1D2734;
+}
+
+.flexCol--global__first--slide-info-card {
+    width        : 324px;
+    height       : 336px;
+    border-radius: 12px;
+    box-shadow   : 0px 2px 16px 0px #0000000F;
+    box-shadow   : 0px 2px 8px 0px #00000014;
+}
+
+.flexColChild--global__first--slide-info-card {
+    margin-top: 13.82px
+}
+
+/*.flexColChild--container__first--info--card-slider {
+    margin-top: 13.82px
+}*/
+
+/*.flexCol--container__first--info--card-slider {
+    width           : 324px;
+    height          : 336px;
+    background-color: #ffff;
+    border-radius   : 12px;
+    box-shadow      : 0px 2px 16px 0px #0000000F;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+}*/
+
+.flexRowContent--global__slide--one-info-card-description {
+    display              : grid;
+    grid-template-columns: 76% 24%;
+}
+
+/*.flexRowContent--first__info--card-description {
+    display              : grid;
+    grid-template-columns: 76% 24%;
+}*/
+
+.flexCol--global__slide--one-info-card-text {
+    gap: 10.37px
+}
+
+/*.flexCol--first__info--card-text {
+    gap: 10.37px
+}*/
+
+.flexCol--first__info--card-icon {
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--four__info--card-image :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .flexRow--global__home--slide-1 {
+        margin-top : 24px;
+        margin-left: 72px;
+    }
+}
