@@ -1,12 +1,12 @@
 {
-    "overlay-trigger#mobile__search-bar-overlay": {
+    "overlay-trigger#global__home-search-bar--overlay": {
         "title": "Container mobile search bar overlay",
         "children": [
-            "icon#mobile__icon--search-bar",
-            "overlay-layout#mobile__header--overlay"
+            "icon#global__home-search-bar-overlay--icon",
+            "overlay-layout#global__home-search-bar--overlay"
         ]
     },
-    "icon#mobile__icon--search-bar": {
+    "icon#global__home-search-bar-overlay--icon": {
         "title": "Mobile icon search bar",
         "props": {
             "id": "search",
@@ -18,21 +18,21 @@
             "activeClassName": "vtex-store-components-3-x-searchIcon"
         }
     },
-    "overlay-layout#mobile__header--overlay": {
+    "overlay-layout#global__home-search-bar--overlay": {
         "title": "Mobile header overlay search bar",
         "props": {
             "placement": "left",
             "transitionComponent": "fadeInLeft",
-            "blockClass": "mobile__header--overlay"
+            "blockClass": "global__home-search-bar--overlay"
         },
         "children": [
-            "search-bar#mobile__search--bar-overlay"
+            "search-bar#global__search-bar--overlay"
         ]
     },
-    "search-bar#mobile__search--bar-overlay": {
+    "search-bar#global__search-bar--overlay": {
         "props": {
             "placeholder": "Buscar productos...",
-            "blockClass": "mobile__search--bar-overlay"
+            "blockClass": "global__search-bar--overlay"
         }
     }
 }

@@ -58,7 +58,7 @@
     "flex-layout.row#search__bar--mobile-header": {
         "title": "Container search bar mobile header",
         "children": [
-            "overlay-trigger#mobile__search-bar-overlay"
+            "overlay-trigger#global__home-search-bar--overlay"
         ],
         "props": {
             "blockClass": "search__bar--mobile-header"

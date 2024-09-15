@@ -1,0 +1,141 @@
+{
+    // Info card containers text slide 1
+    "flex-layout.col#global__home-slide-1-card-pre--order": {
+        "title": "Title info card",
+        "children": [
+            "rich-text#card__pre-order--title",
+            "rich-text#card__pre-order--subtitle",
+            "rich-text#card__pre-order--about"
+        ],
+        "props": {
+            "blockClass": [
+                "first__info--card-text",
+                "global__slide--1-info-card-text"
+            ]
+        }
+    },
+    "rich-text#card__pre-order--title": {
+        "title": "Title info card",
+        "props": {
+            "text": "APPLE WATCH SERIES 9",
+            "blockClass": [
+                "card__pre-order--title",
+                "global__card-pre-order--text",
+                "global__info--cart-title"
+            ]
+        }
+    },
+    "rich-text#card__pre-order--subtitle": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Pre-order now.",
+            "blockClass": [
+                "card__pre-order--subtitle",
+                "global__card-pre-order--text",
+                "global__info--cart-subtitle"
+            ]
+        }
+    },
+    "rich-text#card__pre-order--about": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": [
+                "card__pre-order--about",
+                "global__card-pre-order--text",
+                "global__info--cart-about"
+            ]
+        }
+    },
+
+    "flex-layout.col#global__home-slide-1-card--store": {
+        "title": "Title info card",
+        "children": [
+            "rich-text#card__store--title",
+            "rich-text#card__store--subtitle",
+            "rich-text#card__store--about"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--store",
+                "global__slide--1-info-card-text"
+            ]
+        }
+    },
+    "rich-text#card__store--title": {
+        "title": "Title info card",
+        "props": {
+            "text": "XIAOMI REDMI NOTE PRO 10",
+            "blockClass": [
+                "card__store--title",
+                "global__card--store-text",
+                "global__info--cart-title"
+            ]
+        }
+    },
+    "rich-text#card__store--subtitle": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Valencia Store",
+            "blockClass": [
+                "card__store--subtitle",
+                "global__card--store-text",
+                "global__info--cart-subtitle"
+            ]
+        }
+    },
+    "rich-text#card__store--about": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Builder platform is made by, buildership",
+            "blockClass": [
+                "card__store--about",
+                "global__card--store-text",
+                "global__info--cart-about"
+            ]
+        }
+    },
+
+    // Images info cards
+    "image#card__one-product--image": {
+        "props": {
+            "src": "/arquivos/apple_watch.svg",
+            "blockClass": "first__info--card-product"
+        }
+    },
+    "image#card__two-product--image": {
+        "props": {
+            "src": "/arquivos/phone_watch.svg",
+            "blockClass": "card__two-product--image"
+        }
+    },
+    "image#card__three-product--image": {
+        "props": {
+            "src": "/arquivos/card_media.svg",
+            "blockClass": "card__three-product--image"
+        }
+    },
+    "image#card__four-product--image": {
+        "props": {
+            "src": "/arquivos/card_element_desk.svg",
+            "blockClass": "card__four-product--image"
+        }
+    },
+
+    // Global icon info card
+    "flex-layout.col#global__home-slide-1-card--icon": {
+        "title": "Container icon info card",
+        "children": [
+            "image#icon__info--card"
+        ],
+        "props": {
+            "blockClass": "global__home-slide-1-card--icon"
+        }
+    },
+    "image#icon__info--card": {
+        "props": {
+            "src": "/arquivos/number-one-badge.svg",
+            "blockClass": "icon__info--card"
+        }
+    }
+}
