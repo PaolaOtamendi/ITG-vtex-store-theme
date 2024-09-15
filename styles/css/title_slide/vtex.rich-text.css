@@ -1,4 +1,4 @@
-.paragraph--title__slider--text {
+.paragraph--global__title__slide-1--text {
     margin     : 0px;
     font-family: lexend, sans-serif;
     font-size  : 20px;
@@ -7,10 +7,27 @@
     color      : #1D2734;
 }
 
-.strong--title__slider--text {
+.strong--global__title__slide-1--text {
     font-weight: 600;
+}
+
+.paragraph--global__title__slide-2--text {
+    margin     : 0px;
+    font-family: lexend, sans-serif;
+    font-size  : 20px;
+    line-height: 24px;
+    font-weight: 300;
+    color      : #1D2734;
+}
+
+.strong--global__title__slide-2--text {
+    font-weight: 600;
+    color      : #6D00cc;
 }
 
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
+    .strong--global__title__slide-2--text {
+        color: #1D2734;
+    }
 }

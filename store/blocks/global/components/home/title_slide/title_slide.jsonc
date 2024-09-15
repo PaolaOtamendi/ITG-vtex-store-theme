@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#global__title-slide--1": {
+        "title": "Container global title slider",
+        "children": [
+            "rich-text#global__title__slide-1--text"
+        ],
+        "props": {
+            "blockClass": "global__title-slide--1"
+        }
+    },
+    "rich-text#global__title__slide-1--text": {
+        "title": "Title slider text",
+        "props": {
+            "text": "**An amazing product**. La mejor manera de comprar lo que amas",
+            "blockClass": "global__title__slide-1--text"
+        }
+    }, 
+
+    
+    "flex-layout.row#global__title-slide--2": {
+        "title": "Container global title slider",
+        "children": [
+            "rich-text#global__title__slide-2--text"
+        ],
+        "props": {
+            "blockClass": "global__title-slide--2"
+        }
+    },
+    "rich-text#global__title__slide-2--text": {
+        "title": "Title slider text",
+        "props": {
+            "text": "**An amazing product**. La mejor manera de comprar lo que amas",
+            "blockClass": "global__title__slide-2--text"
+        }
+    },
+
+    "flex-layout.row#global__title-slide--3": {
+        "title": "Container global title slider",
+        "children": [
+            "rich-text#global__title__slide-3--text"
+        ],
+        "props": {
+            "blockClass": "global__title-slide--3"
+        }
+    },
+    "rich-text#global__title__slide-3--text": {
+        "title": "Title slider text",
+        "props": {
+            "text": "**An amazing product**. La mejor manera de comprar lo que amas",
+            "blockClass": "global__title__slide-3--text"
+        }
+    }
+}

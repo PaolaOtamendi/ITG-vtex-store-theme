@@ -1,70 +1,66 @@
 /*-------------- Header mobile custom --------------*/
-.flexRow--container__mobile--header-menu {
+.flexRow--mobile__header-menu--main {
     width: 100%;
 }
 
-.flexRowContent--container__mobile--header-menu {
+.flexRowContent--mobile__header-menu--main {
     display   : flex;
     margin-top: 37px;
 }
 
-.flexCol--section__two--mobile-header {
+.flexCol--mobile__header-menu-section--one {
+    margin-left: 16px;
+}
+
+.flexCol--mobile__header-menu-section--two {
     flex-direction: row;
     margin-right  : 16px;
 }
 
-.flexCol--section__one--mobile-header {
-    margin-left: 16px;
-}
-
-.flexRowContent--search__bar--mobile-header {
+.flexRowContent--mobile__header-menu-section-two-search--bar {
     margin-right: 16.8px;
 }
 
-.flexRowContent--minicart__mobile-header {
+.flexRowContent--mobile__header-menu-section-two-mini--cart {
     margin-right: 19.25px;
 }
 
 /*-------------- Header desktop custom --------------*/
-/*.flexRowContent--section__three--desktop-header {
-    align-items: center;
-}*/
-
-.flexColChild--section__three--desktop-header :global(.vtex-store-components-3-x-searchIcon) {
+.flexColChild--desktop__header-menu-section--three :global(.vtex-store-components-3-x-searchIcon) {
     width : 20px;
     height: 20px;
 }
 
-.flexRowContent--section__one--desktop-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--desktop__header-menu--main :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width : fit-content !important;
     height: fit-content !important;
 }
 
-.flexCol--section__three--desktop-header {
+.flexCol--desktop__header-menu-section--one {
+    margin-right: 16px;
+}
+
+.flexColChild--desktop__header-menu-section--one {
+    margin-top: 20px;
+}
+
+.flexCol--desktop__header-menu-section--two {
+    align-items    : center;
+    justify-content: center;
+}
+
+.flexColChild--desktop__header-menu-section--two {
+    margin-top: 21px;
+}
+
+.flexColChild--desktop__header-menu-section--three {
+    margin-top: 18px;
+}
+
+.flexCol--desktop__header-menu-section--three {
     flex-direction : row;
     align-items    : start;
     justify-content: center;
     gap            : 16px;
     margin-left    : 16px;
-}
-
-.flexCol--section__one--desktop-header {
-    margin-right: 16px;
-}
-
-.flexColChild--section__one--desktop-header {
-    margin-top: 20px;
-}
-
-.flexCol--section__two--desktop-header {
-    align-items    : center;
-    justify-content: center;
-}
-
-.flexColChild--section__two--desktop-header {
-    margin-top: 21px;
-}
-
-.flexColChild--section__three--desktop-header {
-    margin-top: 18px;
 }

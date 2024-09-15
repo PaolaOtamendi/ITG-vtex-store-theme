@@ -2,18 +2,18 @@
     "header-row#mobile__header--menu": {
         "title": "Section mobile header menu",
         "children": [
-            "flex-layout.row#container__mobile--header-menu"
+            "flex-layout.row#mobile__header-menu--main"
         ],
         "props": {
             "fullWidth": true,
             "blockClass": "mobile__header--menu"
         }
     },
-    "flex-layout.row#container__mobile--header-menu": {
+    "flex-layout.row#mobile__header-menu--main": {
         "title": "Container sections mobile header menu",
         "children": [
-            "flex-layout.col#section__one--mobile-header",
-            "flex-layout.col#section__two--mobile-header"
+            "flex-layout.col#mobile__header-menu-section--one",
+            "flex-layout.col#mobile__header-menu-section--two"
         ],
         "props": {
             "horizontalAlign": "center",
@@ -21,66 +21,65 @@
             "preventVerticalStretch": true,
             "preventHorizontalStretch": false,
             "fullWidth": true,
-            "blockClass": "container__mobile--header-menu"
+            "blockClass": "mobile__header-menu--main"
         }
     },
-    "flex-layout.col#section__one--mobile-header": {
+    "flex-layout.col#mobile__header-menu-section--one": {
         "title": "Section one header mobile",
         "children": [
-            "logo#icon__logo--mobile-header"
+            "logo#mobile__header-menu-section--one--logo"
         ],
         "props": {
             "verticalAlign": "middle",
-            "blockClass": "section__one--mobile-header"
+            "blockClass": "mobile__header-menu-section--one"
         }
     },
-    "logo#icon__logo--mobile-header": {
+    "logo#mobile__header-menu-section--one--logo": {
         "title": "Icon logo mobile header",
         "props": {
             "href": "/",
             "url": "/arquivos/icon_itg_logo.svg",
-            "blockClass": "icon__logo--mobile-header"
+            "blockClass": "mobile__header-menu-section--one--logo"
         }
     },
-    "flex-layout.col#section__two--mobile-header": {
+    "flex-layout.col#mobile__header-menu-section--two": {
         "title": "Section two header mobile",
         "children": [
-            "flex-layout.row#search__bar--mobile-header",
-            "flex-layout.row#minicart__mobile-header",
-            "flex-layout.row#drawer__mobile-header"
+            "flex-layout.row#mobile__header-menu-section-two-search--bar",
+            "flex-layout.row#mobile__header-menu-section-two-mini--cart",
+            "flex-layout.row#mobile__header-menu-section-two--drawer"
         ],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "bottom",
-            "blockClass": "section__two--mobile-header"
+            "blockClass": "mobile__header-menu-section--two"
         }
     },
-    "flex-layout.row#search__bar--mobile-header": {
+    "flex-layout.row#mobile__header-menu-section-two-search--bar": {
         "title": "Container search bar mobile header",
         "children": [
             "overlay-trigger#global__home-search-bar--overlay"
         ],
         "props": {
-            "blockClass": "search__bar--mobile-header"
+            "blockClass": "mobile__header-menu-section-two-search--bar"
         }
     },
-    "flex-layout.row#minicart__mobile-header": {
+    "flex-layout.row#mobile__header-menu-section-two-mini--cart": {
         "title": "Container minicart mobile header",
         "children": [
             "minicart.v2#global__minicart--header"
-            /*"minicart.v2"*/
         ],
         "props": {
-            "blockClass": "minicart__mobile-header"
+            "blockClass": "mobile__header-menu-section-two-mini--cart"
         }
     },
-    "flex-layout.row#drawer__mobile-header": {
+    "flex-layout.row#mobile__header-menu-section-two--drawer": {
         "title": "Container drawer bar mobile header",
         "children": [
             "drawer#mobile__drawer"
         ],
         "props": {
-            "blockClass": "drawer__mobile-header"
+            "blockClass": "mobile__header-menu-section-two--drawer"
         }
     },
     "drawer#mobile__drawer": {

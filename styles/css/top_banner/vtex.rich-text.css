@@ -7,6 +7,7 @@
     color      : #B3B3B3;
     margin     : 0px;
     height     : 24px;
+    /*min-width  : 224px;*/
 }
 
 .link--text__top--banner {
@@ -30,5 +31,9 @@
 
     .link--text__top--banner {
         width: 75px;
+    }
+
+    .container--text__top--banner {
+        width: 452px;
     }
 }

@@ -1,4 +1,4 @@
-.styledLinkContent--websites__desktop--header {
+.styledLinkContent--desktop__header-menu--websites {
     font-size  : 12px;
     font-weight: 300;
     line-height: 15px;
@@ -6,11 +6,11 @@
     font-family: lexend, sans-serif;
 }
 
-.styledLinkContainer--websites__desktop--header {
+.styledLinkContainer--desktop__header-menu--websites {
     margin : 0;
     padding: 0;
 }
 
-.menuContainer--websites__desktop--header {
+.menuContainer--desktop__header-menu--websites {
     gap: 16px;
 }

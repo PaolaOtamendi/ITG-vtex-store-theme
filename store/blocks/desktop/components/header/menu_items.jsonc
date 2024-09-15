@@ -1,9 +1,9 @@
 {
-    "vtex.menu@2.x:menu#websites__desktop--header": {
+    "vtex.menu@2.x:menu#desktop__header-menu--websites": {
         "title": "Menu websites header desktop",
         "props": {
             "blockClass": [
-                "websites__desktop--header"
+                "desktop__header-menu--websites"
             ],
             "items": [
                 {

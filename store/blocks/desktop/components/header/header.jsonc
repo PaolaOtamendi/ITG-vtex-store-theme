@@ -2,7 +2,7 @@
     "header-row#dektop__header--menu": {
         "title": "Section desktop header menu",
         "children": [
-            "flex-layout.row#section__prueba--desktop-header"
+            "flex-layout.row#desktop__header-menu--main"
         ],
         "props": {
             "horizontalAlign": "center",
@@ -11,73 +11,73 @@
             "blockClass": "dektop__header--menu"
         }
     },
-    "flex-layout.row#section__prueba--desktop-header": {
+    "flex-layout.row#desktop__header-menu--main": {
         "title": "Section one header desktop",
         "children": [
-            "flex-layout.col#section__one--desktop-header",
-            "flex-layout.col#section__two--desktop-header",
-            "flex-layout.col#section__three--desktop-header"
+            "flex-layout.col#desktop__header-menu-section--one",
+            "flex-layout.col#desktop__header-menu-section--two",
+            "flex-layout.col#desktop__header-menu-section--three"
         ],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventVerticalStretch": false,
             "preventHorizontalStretch": false,
-            "blockClass": "section__one--desktop-header"
+            "blockClass": "desktop__header-menu--main"
         }
     },
 
-    "flex-layout.col#section__one--desktop-header": {
+    "flex-layout.col#desktop__header-menu-section--one": {
         "title": "Section one header desktop",
         "children": [
-            "logo#icon__logo--desktop-header"
+            "logo#desktop__header-menu-section-one--logo"
         ],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "middle",
             "preventVerticalStretch": false,
             "preventHorizontalStretch": false,
-            "blockClass": "section__one--desktop-header"
+            "blockClass": "desktop__header-menu-section--one"
         }
     },
-    "logo#icon__logo--desktop-header": {
+    "logo#desktop__header-menu-section-one--logo": {
         "title": "Icon logo desktop header",
         "props": {
             "href": "/",
             "url": "/arquivos/icon_itg_logo.svg",
-            "blockClass": "icon__logo--desktop-header"
+            "blockClass": "desktop__header-menu-section-one--logo"
         }
     },
-    "flex-layout.col#section__two--desktop-header": {
+    "flex-layout.col#desktop__header-menu-section--two": {
         "title": "Section two header desktop",
         "children": [
-            "vtex.menu@2.x:menu#websites__desktop--header"
+            "vtex.menu@2.x:menu#desktop__header-menu--websites"
         ],
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
-            "blockClass": "section__two--desktop-header"
+            "blockClass": "desktop__header-menu-section--two"
         }
     },
-    "flex-layout.col#section__three--desktop-header": {
+    "flex-layout.col#desktop__header-menu-section--three": {
         "title": "Section three header desktop",
         "children": [
             "overlay-trigger#global__home-search-bar--overlay",
             "minicart.v2#global__minicart--header",
-            "login#desktop__button--login"
+            "login#desktop__header-menu--login"
         ],
         "props": {
             /*"horizontalAlign": "left",*/
             "horizontalAlign": "right",
             "verticalAlign": "middle",
             "preventHorizontalStretch": true,
-            "blockClass": "section__three--desktop-header"
+            "blockClass": "desktop__header-menu-section--three"
         }
     },
-    "login#desktop__button--login": {
+    "login#desktop__header-menu--login": {
         "props": {
             "iconLabel": "Sign in",
-            "blockClass": "desktop__button--login"
+            "blockClass": "desktop__header-menu--login"
         }
     }
 }

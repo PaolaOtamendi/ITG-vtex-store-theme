@@ -1,3 +1,11 @@
+.flexRowContent--global__top--banner :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+}
+
+.flexCol--global__top-banner--text {
+    width: fit-content !important;
+}
+
 .flexRow--global__top--banner :global(.vtex-store-components-3-x-container) {
     padding: 0px;
 }
@@ -14,25 +22,26 @@
     height        : 56px;
 }
 
-.flexCol--container__top-banner--text {
-    margin-left  : 13px;
-    margin-top   : 16px;
-    margin-bottom: 16px;
+.flexCol--global__top-banner--text {
+    margin-left    : 13px;
+    margin-top     : 16px;
+    margin-bottom  : 16px;
+    /*min-width    : 224px;*/
 }
 
-.flexColChild--container__top-banner--text {
+.flexColChild--global__top-banner--text {
     max-width: 452px;
     min-width: 224px;
 }
 
-.flexCol--container__top--banner-icon {
+.flexCol--global__top-banner--icon {
     padding-left : 20px;
     padding-right: 20px;
     margin-bottom: 20px;
     margin-top   : 20px;
 }
 
-.flexCol--container__top-banner--image {
+.flexCol--global__top-banner--image {
     align-items  : end;
     margin-top   : 4px;
     margin-bottom: 4px;
@@ -52,12 +61,12 @@
         margin-top: 20px;
     }
 
-    .flexCol--container__top--banner-icon {
+    .flexCol--global__top-banner--icon {
         padding-left : 132px;
         padding-right: 0px;
     }
 
-    .flexCol--container__top-banner--text {
+    .flexCol--global__top-banner--text {
         max-width: 452px;
     }
 }
