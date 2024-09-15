@@ -1,0 +1,61 @@
+.paragraph--global__card-pre-order--text {
+    color: #1D2734;
+}
+
+.paragraph--global__card--store-text {
+    color: #ffff;
+}
+
+.container--global__info--cart-title {
+    padding: 0px 8px 0px 8px;
+}
+
+.container--global__info--cart-subtitle {
+    padding: 0px 0px 0px 8px;
+}
+
+.container--global__info--cart-about {
+    padding: 0px 0px 0px 8px;
+}
+
+.paragraph--global__info--cart-title {
+    margin        : 0%;
+    font-family   : lexend, sans-serif;
+    font-size     : 10px;
+    font-weight   : 300;
+    line-height   : 14.52px;
+    white-space   : nowrap;
+}
+
+.paragraph--global__info--cart-subtitle {
+    margin        : 0%;
+    font-family   : lexend, sans-serif;
+    font-size     : 16px;
+    font-weight   : 600;
+    line-height   : 24.88px;
+    white-space   : nowrap;
+}
+
+.paragraph--global__info--cart-about {
+    margin              : 0;
+    font-family         : lexend, sans-serif;
+    font-size           : 12px;
+    font-weight         : 300;
+    line-height         : 14.52px;
+    /*display           : -webkit-box;
+    -webkit-box-orient  : vertical;
+    -webkit-line-clamp  : 1;
+    overflow            : hidden;
+    text-overflow       : ellipsis;
+    height              : 30px;*/
+    /*white-space       : nowrap !important;
+    overflow            : hidden !important;
+    text-overflow       : ellipsis;*/
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .paragraph--global__info--cart-about {
+        max-width: 247px !important;
+    }
+}

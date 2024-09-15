@@ -1,0 +1,197 @@
+{
+    "flex-layout.row#global__home-slide--1": {
+        "title": "Container global home first slider",
+        "children": [
+            "slider-layout#home__first--slider"
+        ],
+        "props": {
+            "blockClass": "global__home--slide-1"
+        }
+    },
+    "slider-layout#home__first--slider": {
+        "title": "Home first slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 24,
+            /*"centerModeVisualScale": 1,*/
+            /*"centerModeSliderRightPadding": 12,*/
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "fullWidth": false,
+            "blockClass": "global__home-slide--1"
+        },
+        "children": [
+            "flex-layout.col#global__home-slide-1-card--one",
+            "flex-layout.col#global__home-slide-1-card--two",
+            "flex-layout.col#global__home-slide-1-card--three",
+            "flex-layout.col#global__home-slide-1-card--four",
+            "flex-layout.col#global__home-slide-1-card--one",
+            "flex-layout.col#global__home-slide-1-card--two",
+            "flex-layout.col#global__home-slide-1-card--three",
+            "flex-layout.col#global__home-slide-1-card--four",
+            "flex-layout.col#global__home-slide-1-card--one",
+            "flex-layout.col#global__home-slide-1-card--two",
+            "flex-layout.col#global__home-slide-1-card--three",
+            "flex-layout.col#global__home-slide-1-card--four"
+        ]
+    },
+
+    // First info card
+    "flex-layout.col#global__home-slide-1-card--one": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global__home-slide-1-card-one--info",
+            "flex-layout.row#global__home-slide-1-card-one--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--one",
+                "global__home-slide-1-card-pre--order",
+                "global__home-slide-1--card"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-one--info": {
+        "title": "First row info card",
+        "children": [
+            "flex-layout.col#global__home-slide-1-card-pre--order",
+            "flex-layout.col#global__home-slide-1-card--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card-one--info",
+                "global__home-slide-1-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-one--image": {
+        "title": "First row info card",
+        "children": [
+            "image#card__one-product--image"
+        ],
+        "props": {
+            "blockClass": "global__home-slide-1-card-one--image"
+        }
+    },
+
+    // Second info card
+    "flex-layout.col#global__home-slide-1-card--two": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global__home-slide-1-card--two--info",
+            "flex-layout.row#global__home-slide-1-card-two--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--two",
+                "global__home-slide-1-card--store",
+                "global__home-slide-1--card"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card--two--info": {
+        "title": "second row info card",
+        "children": [
+            "flex-layout.col#global__home-slide-1-card--store",
+            "flex-layout.col#global__home-slide-1-card--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--two--info",
+                "global__home-slide-1-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-two--image": {
+        "title": "second row info card",
+        "children": [
+            "image#card__two-product--image"
+        ],
+        "props": {
+            "blockClass": "global__home-slide-1-card-two--image"
+        }
+    },
+    
+
+    // Third info card
+    "flex-layout.col#global__home-slide-1-card--three": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global__home-slide-1-card-three--info",
+            "flex-layout.row#global__home-slide-1-card-three--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--three",
+                "global__home-slide-1-card-pre--order",
+                "global__home-slide-1--card"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-three--info": {
+        "title": "third row info card",
+        "children": [
+            "flex-layout.col#global__home-slide-1-card-pre--order",
+            "flex-layout.col#global__home-slide-1-card--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card-three--info",
+                "global__home-slide-1-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-three--image": {
+        "title": "third row info card",
+        "children": [
+            "image#card__three-product--image"
+        ],
+        "props": {
+            "blockClass": "global__home-slide-1-card-three--image"
+        }
+    },
+
+    // Four info card
+    "flex-layout.col#global__home-slide-1-card--four": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global__home-slide-1-card-four--info",
+            "flex-layout.row#global__home--slide-1-card-four--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card--four",
+                "global__home-slide-1-card--store",
+                "global__home-slide-1--card"
+            ]
+        }
+    },
+    "flex-layout.row#global__home-slide-1-card-four--info": {
+        "title": "four row info card",
+        "children": [
+            "flex-layout.col#global__home-slide-1-card--store",
+            "flex-layout.col#global__home-slide-1-card--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home-slide-1-card-four--info",
+                "global__home-slide-1-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global__home--slide-1-card-four--image": {
+        "title": "four row info card",
+        "children": [
+            "image#card__four-product--image"
+        ],
+        "props": {
+            "blockClass": "global__home--slide-1-card-four--image"
+        }
+    }
+}

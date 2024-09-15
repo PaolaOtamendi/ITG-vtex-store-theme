@@ -1,0 +1,16 @@
+.flexRowContent--global__home--slide-2 {
+    overflow: auto;
+}
+
+.flexRow--global__home--slide-2 :global(.vtex-list-context-0-x-list) {
+    display: flex;
+    gap: 16.48px;
+}
+
+.flexRow--global__home--slide-2 :global(.vtex-product-summary-2-x-container) {
+    width: 176.52px;
+}
+
+.flexCol--global__home--card-one {
+    width: 324px !important;
+}

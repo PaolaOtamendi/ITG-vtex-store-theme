@@ -1,0 +1,112 @@
+{
+    /*"flex-layout.row#global__home--slide-2": {
+        "children": [
+            "flex-layout.col#global__home--card-one",
+            "list-context.product-list#global__home--one"
+        ],
+        "props": {
+            "blockClass": ["global__home--slide-2",
+            "global__home--slide"
+        ],
+            "colSizing": "auto"
+        }
+    },
+    "list-context.product-list#global__home--one": {
+        "blocks": [
+            "product-summary.shelf#global__shelf--product-summary"
+        ],
+        "children": [
+            "list-context-renderer#global__shelf--render"
+        ],
+        "props": {
+            "blockClass": "global__home--one"
+        }
+    },
+    "list-context-renderer#global__shelf--render": {
+        "props": {
+            "listElement": "div"
+        }
+    },
+    "product-summary.shelf#global__shelf--product-summary": {
+    "children": [
+        "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "flex-layout.col#global__home--card-one": {
+    "title": "",
+    "children": [
+        "rich-text#home__card-one--text",
+        "image#home__card-one--image"
+    ],
+    "props": {
+        "blockClass": "global__home--card-one"
+    }
+  },
+  "rich-text#home__card-one--text": {
+    "props": {
+        "text": "VALENTINE’S DAY \n ## GiftsCard for your love."
+    }
+  },
+  "image#home__card-one--image": {
+    "props": {
+        "src":"/arquivos/gifs_card.svg",
+        "blockClass": ""
+    }
+  },
+  // Section 2
+  "flex-layout.row#global__home--slide-3": {
+        "children": [
+            "flex-layout.col#global__home--card-two",
+            "list-context.product-list#global__home--two"
+        ],
+        "props": {
+            "blockClass": ["global__home--slide-2",
+            "global__home--slide"
+        ],
+            "colSizing": "auto"
+        }
+    },
+    "list-context.product-list#global__home--two": {
+        "blocks": [
+            "product-summary.shelf#global__shelf--product-summary-2"
+        ],
+        "children": [
+            "list-context-renderer#global__shelf--render"
+        ],
+        "props": {
+            "blockClass": "global__home--two"
+        }
+    },
+    "product-summary.shelf#global__shelf--product-summary-2": {
+    "children": [
+        "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "flex-layout.col#global__home--card-two": {
+    "title": "",
+    "children": [
+        "rich-text#home__card-two--text",
+        "image#home__card-two--image"
+    ],
+    "props": {
+        "blockClass": "global__home--card-one"
+    }
+  },
+  "rich-text#home__card-two--text": {
+    "props": {
+        "text": "VALENTINE’S DAY \n ## GiftsCard for your love \n ."
+    }
+  },
+  "image#home__card-two--image": {
+    "props": {
+        "src":"/arquivos/gifs_card.svg",
+        "blockClass": ""
+    }
+  }*/
+}

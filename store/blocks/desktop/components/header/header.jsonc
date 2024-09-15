@@ -62,7 +62,7 @@
     "flex-layout.col#section__three--desktop-header": {
         "title": "Section three header desktop",
         "children": [
-            "overlay-trigger#mobile__search-bar-overlay",
+            "overlay-trigger#global__home-search-bar--overlay",
             "minicart.v2#global__minicart--header",
             "login#desktop__button--login"
         ],
