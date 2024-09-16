@@ -7,3 +7,8 @@
     font-family: 'poppins';
     src: url("assets/fonts/Poppins-Regular.ttf"),url("assets/fonts/Poppins-Regular.woff");
   }
+
+  @font-face {
+    font-family: 'montserrat';
+    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf"),url("assets/fonts/Montserrat-VariableFont_wght.woff");
+  }

@@ -17,8 +17,8 @@
                 "phone": 1
             },
             "infinite": true,
-            "centerMode": "to-the-left",
-            "centerModeSlidesGap": 24,
+            /*"centerMode": "to-the-left",
+            "centerModeSlidesGap": 24,*/
             /*"centerModeVisualScale": 1,*/
             /*"centerModeSliderRightPadding": 12,*/
             "showNavigationArrows": "never",
