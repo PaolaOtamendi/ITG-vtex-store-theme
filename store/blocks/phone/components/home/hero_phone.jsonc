@@ -2,52 +2,34 @@
     "flex-layout.row#phone__hero--main": {
         "title": "phone hero main",
         "children": [
-            "flex-layout.col#phone__hero-main--slider"
+            "flex-layout.col#phone__hero-main--image"
         ],
         "props": {
             "blockClass": "phone__hero--main"
         }
     },
-    "flex-layout.col#phone__hero-main--slider": {
-        "title": "phone hero main slider",
+    "flex-layout.col#phone__hero-main--image": {
+        "title": "phone hero main image",
         "children": [
-            "list-context.image-list#phone__hero-main-slider--container"
+            "image#phone__hero-main-image"
         ],
         "props": {
-            "blockClass": "hero__main--slider"
+            "blockClass": "hero__main--image"
         }
     },
-    "list-context.image-list#phone__hero-main-slider--container": {
-        "title": "Container hero main list images",
-        "children": [
-            "slider-layout#phone__hero-main-slider-container--images"
-        ],
+    "image#phone__hero-main-image": {
+        "title": "phone hero main image",
         "props": {
-            "height": 428,
-            "width": "100%",
-            /*"blockClass": "fixed-top",*/
-            "images": [
-                {
-                    "image": "/arquivos/hero_mobile.svg",
-                    "description": "main image hero",
-                    "width": "100%",
-                    "link": {
-                        "props": {
-                            "label": "",
-                            "href": "#",
-                            "blockClass": "benner-phone"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "slider-layout#phone__hero-main-slider-container--images": {
-        "title": "Banner slider home tablet",
-        "props": {
-            "itemsPerPage": {
-                "phone": 1
-            }
+            "src": "/arquivos/hero_mobile.svg", 
+            "alt": "main image hero", 
+            "link": {
+                "url": "#", 
+                "noFollow": false, 
+                "newTab": false
+            },
+            "width": 328,
+            "height": 424,
+            "blockClass": "phone__hero-main-image"
         }
     }
 }
