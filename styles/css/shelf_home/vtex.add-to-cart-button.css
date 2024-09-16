@@ -1,0 +1,35 @@
+.buttonText--product__summary-btn--add {
+    /*font-size: 12.39px;*/
+    font-weight   : 500;
+    line-height   : 15.1px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: lowercase;
+    display       : flex;
+    align-items   : center;
+}
+
+.buttonText--product__summary-btn--add {
+    font-size: 0px;
+}
+
+.buttonText--product__summary-btn--add::after {
+    content  : "Enable";
+    font-size: 12.39px;
+}
+
+.buttonText--product__summary-btn--add::first-letter {
+    text-transform: capitalize;
+}
+
+.buttonDataContainer--product__summary-btn--add::before {
+    content: url("/arquivos/button_cart.png");
+    width  : 15.48px;
+    height : 15.48px;
+}
+
+.buttonDataContainer--product__summary-btn--add {
+    display    : flex;
+    align-items: center;
+    gap        : 9.57px !important;
+}

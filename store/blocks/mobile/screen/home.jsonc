@@ -8,8 +8,8 @@
             "flex-layout.row#global__title-slide--1",
             "flex-layout.row#global__home-slide--1",
             "flex-layout.row#global__title-slide--2",
-            /*"flex-layout.row#global__home--slide-2"*/
-            "flex-layout.row#global__title-slide--3"
+            "flex-layout.row#global__home-shelf-slide--1"
+            /*"flex-layout.row#global__title-slide--3"*/
         ]
     }
 }
