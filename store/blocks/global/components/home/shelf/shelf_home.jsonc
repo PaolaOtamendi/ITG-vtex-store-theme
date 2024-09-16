@@ -39,10 +39,6 @@
             "flex-layout.col#shelf__product-summary-prices",
             "flex-layout.col#shelf__product-summary-highligths",
             "flex-layout.col#shelf__product-summary-add-to-cart"
-            /*"product-summary-image",
-            "product-summary-name",
-            "product-summary-price",
-            "product-summary-buy-button"*/
         ],
         "props": {
             "width": 176,

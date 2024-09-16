@@ -1,13 +1,7 @@
 .element--global__shelf--product-summary {
-    padding: 0px;
-}
-
-.listPriceLabel {
-    display: none;
-}
-
-.sellingPriceLabel {
-    display: none;
+    padding     : 0px;
+    margin-left : 6.19px;
+    margin-right: 6.19px;
 }
 
 .productNameContainer {
@@ -24,32 +18,16 @@
     align-items: baseline;
 }
 
-.price_listPrice {
-    font-size  : 10.84px;
-    font-weight: 400;
-    line-height: 13.01px;
-    color      : hsla(214, 28%, 16%, 0.4);
-}
-
-.price_sellingPrice {
-    font-size  : 18.58px;
-    line-height: 22.3px;
-    font-weight: 700;
-    color      : #1D2734;
-}
-
-.nameContainer {
-    justify-content: left;
-}
-
 .sellingPriceContainer {
     padding: 0px;
-    border : 1px solid bule;
 }
 
-.container--global__shelf--product-summary {
-    box-shadow: 0px 2px 16px 0px #0000000F;
-    box-shadow: 0px 2px 8px 0px #00000014;
+.listPriceLabel {
+    display: none;
+}
+
+.sellingPriceLabel {
+    display: none;
 }
 
 .listPrice {
@@ -60,16 +38,38 @@
     padding: 0px !important;
 }
 
-.discountInsideContainer {
-    display: none !important;
-}
-
-.productBrand {
+.price_listPrice {
+    font-family       : montserrat, lexend, sans-serif;
     font-size  : 10.84px;
     font-weight: 400;
     line-height: 13.01px;
-    color      : #1D2734 60%;
-    text-align: left;
+    color      : hsla(214, 28%, 16%, 0.4);
+}
+
+.price_sellingPrice {
+    font-family       : montserrat, lexend, sans-serif;
+    font-size  : 18.58px;
+    line-height: 22.3px;
+    font-weight: 700;
+    color      : #1D2734;
+}
+
+.nameContainer {
+    justify-content: left;
+}
+
+.container--global__shelf--product-summary {
+    box-shadow: 0px 2px 16px 0px #0000000F;
+    box-shadow: 0px 2px 8px 0px #00000014;
+}
+
+.productBrand {
+    font-family       : montserrat, lexend, sans-serif;
+    font-size         : 10.84px;
+    font-weight       : 400;
+    line-height       : 13.01px;
+    color             : #1D2734 60%;
+    text-align        : left;
     overflow          : hidden;
     text-overflow     : ellipsis;
     display           : -webkit-box;
@@ -77,10 +77,3 @@
     -webkit-line-clamp: 3;
     max-height        : calc(16.8px * 3);
 }
-
-/*.brandName {
-    font-size  : 10.84px;
-    font-weight: 400;
-    line-height: 13.01px;
-    color      : #1D2734 60%;
-}*/

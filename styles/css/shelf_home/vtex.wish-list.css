@@ -26,5 +26,9 @@
     width             : 15.48px;
     height            : 15.48px;
     position          : absolute;
-    /*margin-right    : 0px !important;*/
+    background-size: 15.48px !important;
+}
+
+.wishlistIcon--product__summary-wish--list :global(.vtex-wish-list-1-x-iconSize) {
+    background-size: 15.48px;
 }
