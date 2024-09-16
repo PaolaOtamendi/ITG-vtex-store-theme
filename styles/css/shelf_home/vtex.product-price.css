@@ -1,0 +1,13 @@
+.savings--product__summary--savings {
+    width           : 74.35px;
+    height          : 24.77px;
+    border-radius   : 12.39px;
+    background-color: #1D2734;
+    font-size       : 12.39px;
+    font-weight     : 500;
+    line-height     : 15.1px;
+    color           : #fff;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+}

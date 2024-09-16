@@ -1,0 +1,30 @@
+.wishlistIconContainer--product__summary-wish--list :global(.vtex-button) {
+    display        : flex;
+    justify-content: end;
+}
+
+.wishlistIconContainer--product__summary-wish--list :global(.vtex-button__label) {
+    padding      : 0px !important;
+    width        : 34.06px;
+    height       : 24.77px;
+    min-height   : 0% !important;
+    border-radius: 12.39px;
+    padding      : 4.65px 9.29px 4.65px 9.29px;
+    gap          : 7.74px;
+    background-color: hsla(214, 28%, 16%, 0.1);
+}
+
+.wishlistIconContainer--product__summary-wish--list {
+    display          : flex;
+    justify-content  : flex-end;
+    /*height         : 32px;*/
+}
+
+
+.wishlistIcon--product__summary-wish--list {
+    background-image  : url("/arquivos/favorite_border-icon.svg") !important;
+    width             : 15.48px;
+    height            : 15.48px;
+    position          : absolute;
+    /*margin-right    : 0px !important;*/
+}

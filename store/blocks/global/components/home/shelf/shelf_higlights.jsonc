@@ -1,0 +1,46 @@
+{
+    "vtex.product-highlights@2.x:product-highlights#shelf__highlights--slide": {
+        "title": "Shelf hignlights slide",
+        "children": [
+            "product-highlight-wrapper#highlights__free--shipping"
+        ],
+        "props": {
+            "blockClass": "shelf__highlights--slide",
+            "filter": {
+                "type": "show",
+                "highlightNames": [
+                    "Envío Gratis"
+                ]
+            }
+        }
+    },
+    "product-highlight-wrapper#highlights__free--shipping": {
+        "title": "Container text and icon product highlights",
+        "children": [
+            "product-highlight-text#highlights__free-shipping--text",
+            "icon#icon__free-shipping"
+        ],
+        "props": {
+            "blockClass": "highlights__free--shipping"
+        }
+    },
+    "product-highlight-text#highlights__free-shipping--text": {
+        "title": "Text to product highlight",
+        "props": {
+            "message": "Envio gratis",
+            "blockClass": "highlights__free-shipping--text"
+        }
+    },
+    "icon#icon__free-shipping": {
+        "title": "icon highlight free shipping",
+        "props": {
+            "id": "flash",
+            "width": 6.97,
+            "height": 11.61,
+            "size": 11.61,
+            "viewBox": "0 0 16 16",
+            "overflow": "visible",
+            "blockclass": "icon__free-shipping"
+        }
+    }
+}
