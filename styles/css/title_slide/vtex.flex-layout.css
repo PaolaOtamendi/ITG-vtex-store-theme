@@ -18,6 +18,18 @@
     margin-right: 30px;
 }
 
+.flexRow--global__title-slide--3 :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
+}
+
+.flexRow--global__title-slide--3 {
+    margin-top  : 32px;
+    margin-left : 16px;
+    margin-right: 30px;
+}
+
+
+
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
     .flexRow--global__title-slide--1 {
@@ -28,5 +40,10 @@
     .flexRow--global__title-slide--2 {
         margin-top  : 82px;
         margin-left : 72px;
+    }
+
+    .flexRow--global__title-slide--3 {
+        margin-top : 80px;
+        margin-left: 72px;
     }
 }
