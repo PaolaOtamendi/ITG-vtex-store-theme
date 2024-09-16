@@ -1,0 +1,16 @@
+.flexRow--desktop__hero--main {
+    margin-top: 80px;
+}
+
+.flexRow--tablet__hero--main {
+    margin-top: 33px;
+}
+
+.flexRow--phone__hero--main {
+    margin-top: 33px;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    
+}
