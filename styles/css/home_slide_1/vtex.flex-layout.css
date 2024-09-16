@@ -1,48 +1,5 @@
-/* Estyl´s info cards */
-.flexCol--global__home-slide-1--card {
-    width        : 324px;
-    height       : 336px;
-    border-radius: 12px;
-    box-shadow   : 0px 2px 16px 0px #0000000F;
-    box-shadow   : 0px 2px 8px 0px #00000014;
-}
-
-.flexColChild--global__home-slide-1--card {
-    margin-top: 13.82px;
-    /*width   : 324px;*/
-}
-
-.flexRowContent--global__home-slide-1-card--info {
-    display              : grid;
-    grid-template-columns: 76% 24%;
-}
-
-.flexCol--global__slide--1-info-card-text {
-    gap: 10.37px
-}
-
-.flexCol--global__home-slide-1-card-pre--order {
-    background-color: #ffff;
-}
-
-.flexCol--global__home-slide-1-card--store {
-    background-color: #1D2734;
-}
-
-.flexRowContent--global__home-slide-1-card--info :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 100% !important;
-}
-
-.flexRowContent--global__home--slide-1-card-four--image :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    justify-content: flex-start;
-}
-
-.flexRow--global__home-slide-1-card-one--image {
-    height: 243px;
-}
-
 /* Display info cards */
-.flexRow--global__home--slide-1 :global(.vtex-store-components-3-x-container) {
+/*.flexRow--global__home--slide-1 :global(.vtex-store-components-3-x-container) {
     padding: 0%;
     margin : 0%;
 }
@@ -56,7 +13,7 @@
 .flexRowContent--global__home--slide-1 {
     background-color: aliceblue;
     border          : 1px solid;
-}
+}*/
 
 /*.flexRow--global__home--slide-1 :global(.vtex-slider-layout-0-x-slide--global__home-slide--1) {
     border          : 1px solid red;
@@ -64,9 +21,9 @@
 }*/
 
 /*---------- Desktop ------------*/
-@media (min-width: 1025px) {
+/*@media (min-width: 1025px) {
     .flexRow--global__home--slide-1 {
         margin-top : 24px;
         margin-left: 72px;
     }
-}
+}*/

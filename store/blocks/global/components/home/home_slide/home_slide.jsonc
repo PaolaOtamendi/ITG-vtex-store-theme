@@ -1,50 +1,24 @@
 {
-    "flex-layout.row#global__home-slide--prueba": {
+    "flex-layout.row#global__home-slide--one": {
         "title": "Container global home first slider",
         "children": [
-            /*"slider-layout#home__first--slider"*/
+            "flex-layout.col#global__home-slide-1-card--one",
+            "flex-layout.col#global__home-slide-1-card--two",
+            "flex-layout.col#global__home-slide-1-card--three",
+            "flex-layout.col#global__home-slide-1-card--four",
             "flex-layout.col#global__home-slide-1-card--one",
             "flex-layout.col#global__home-slide-1-card--two",
             "flex-layout.col#global__home-slide-1-card--three",
             "flex-layout.col#global__home-slide-1-card--four"
         ],
         "props": {
-            "blockClass": "global__home-slide--prueba",
+            "blockClass": "global__home-slide--one",
             "flexDirection": "row",
             "preserveLayoutOnMobile": true,
             "preventHorizontalStretch": true,
             "preventVerticalStretch": false
         }
     },
-    /*"slider-layout#home__first--slider": {
-        "title": "Home first slider",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 2,
-                "phone": 1
-            },
-            "infinite": true,
-            "showNavigationArrows": "never",
-            "showPaginationDots": "never",
-            "fullWidth": false,
-            "blockClass": "global__home-slide--1"
-        },
-        "children": [
-            "flex-layout.col#global__home-slide-1-card--one",
-            "flex-layout.col#global__home-slide-1-card--two",
-            "flex-layout.col#global__home-slide-1-card--three",
-            "flex-layout.col#global__home-slide-1-card--four",
-            "flex-layout.col#global__home-slide-1-card--one",
-            "flex-layout.col#global__home-slide-1-card--two",
-            "flex-layout.col#global__home-slide-1-card--three",
-            "flex-layout.col#global__home-slide-1-card--four",
-            "flex-layout.col#global__home-slide-1-card--one",
-            "flex-layout.col#global__home-slide-1-card--two",
-            "flex-layout.col#global__home-slide-1-card--three",
-            "flex-layout.col#global__home-slide-1-card--four"
-        ]
-    },*/
 
     // First info card
     "flex-layout.col#global__home-slide-1-card--one": {
