@@ -1,0 +1,70 @@
+.flexRow--global__home-slide--one :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
+}
+
+.flexRow--global__home-slide--one {
+    margin-top : 24px;
+    margin-left: 16px;
+}
+
+.flexRowContent--global__home-slide--one {
+    overflow  : auto;
+    height    : 100%;
+    overflow-y: hidden;
+    gap       : 8px;
+}
+
+.flexCol--global__slide--1-info-card-text {
+    gap         : 10.37px;
+    padding-left: 8px;
+}
+
+/* Info cards */
+.flexCol--global__home-slide-1--card {
+    width        : 324px;
+    height       : 336px;
+    border-radius: 12px;
+    box-shadow   : 0px 2px 16px 0px #0000000F;
+    box-shadow   : 0px 2px 8px 0px #00000014;
+}
+
+.flexColChild--global__home-slide-1--card {
+    margin-top: 13.82px;
+    /*width   : 324px;*/
+}
+
+.flexRowContent--global__home-slide-1-card--info {
+    display              : grid;
+    grid-template-columns: 76% 24%;
+}
+
+.flexCol--global__home-slide-1-card-pre--order {
+    background-color: #ffff;
+}
+
+.flexCol--global__home-slide-1-card--store {
+    background-color: #1D2734;
+}
+
+.flexRowContent--global__home-slide-1-card--info :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+}
+
+.flexRowContent--global__home--slide-1-card-four--image :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-start;
+}
+
+/*.flexRow--global__home-slide-1-card-one--image {
+    height: 243px;
+}*/
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .flexRow--global__home-slide--one {
+        margin-left: 72px;
+    }
+
+    .flexRowContent--global__home-slide--one {
+        gap: 24px;
+    }
+}
