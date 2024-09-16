@@ -18,7 +18,7 @@
         }
     },
     "image#desktop__hero-main-image": {
-        "title": "Desktop hemor main image",
+        "title": "Desktop hero main image",
         "props": {
             "src": "/arquivos/hero_desktop.svg", 
             "alt": "main image hero", 

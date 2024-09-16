@@ -1,14 +1,22 @@
 {
-    /*"flex-layout.row#global__home-slide--1": {
+    "flex-layout.row#global__home-slide--prueba": {
         "title": "Container global home first slider",
         "children": [
-            "slider-layout#home__first--slider"
+            /*"slider-layout#home__first--slider"*/
+            "flex-layout.col#global__home-slide-1-card--one",
+            "flex-layout.col#global__home-slide-1-card--two",
+            "flex-layout.col#global__home-slide-1-card--three",
+            "flex-layout.col#global__home-slide-1-card--four"
         ],
         "props": {
-            "blockClass": "global__home--slide-1"
+            "blockClass": "global__home-slide--prueba",
+            "flexDirection": "row",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": false
         }
     },
-    "slider-layout#home__first--slider": {
+    /*"slider-layout#home__first--slider": {
         "title": "Home first slider",
         "props": {
             "itemsPerPage": {
@@ -36,7 +44,7 @@
             "flex-layout.col#global__home-slide-1-card--three",
             "flex-layout.col#global__home-slide-1-card--four"
         ]
-    },
+    },*/
 
     // First info card
     "flex-layout.col#global__home-slide-1-card--one": {
@@ -189,5 +197,5 @@
         "props": {
             "blockClass": "global__home--slide-1-card-four--image"
         }
-    }*/
+    }
 }
