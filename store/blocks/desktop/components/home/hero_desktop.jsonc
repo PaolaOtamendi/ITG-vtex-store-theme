@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#desktop__hero--main": {
+        "title": "Desktop hero main",
+        "children": [
+            "flex-layout.col#desktop__hero-main--slider"
+        ],
+        "props": {
+            "blockClass": "desktop__hero--main"
+        }
+    },
+    "flex-layout.col#desktop__hero-main--slider": {
+        "title": "Desktop hero main slider",
+        "children": [
+            "list-context.image-list#desktop__hero-main-slider--container"
+        ],
+        "props": {
+            "blockClass": "hero__main--slider"
+        }
+    },
+    "list-context.image-list#desktop__hero-main-slider--container": {
+        "title": "Container hero main list images",
+        "children": [
+            "slider-layout#desktop__hero-main-slider-container--images"
+        ],
+        "props": {
+            "height": 288,
+            "width": "100%",
+            /*"blockClass": "fixed-top",*/
+            "images": [
+                {
+                    "image": "/arquivos/hero_desktop.svg",
+                    "description": "main image hero",
+                    "width": "100%",
+                    "link": {
+                        "props": {
+                            "label": "",
+                            "href": "#",
+                            "blockClass": "benner-desktop"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#desktop__hero-main-slider-container--images": {
+        "title": "Banner slider home desktop",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1
+            }
+        }
+    }
+}
