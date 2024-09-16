@@ -2,52 +2,34 @@
     "flex-layout.row#desktop__hero--main": {
         "title": "Desktop hero main",
         "children": [
-            "flex-layout.col#desktop__hero-main--slider"
+            "flex-layout.col#desktop__hero-main--image"
         ],
         "props": {
             "blockClass": "desktop__hero--main"
         }
     },
-    "flex-layout.col#desktop__hero-main--slider": {
-        "title": "Desktop hero main slider",
+    "flex-layout.col#desktop__hero-main--image": {
+        "title": "Desktop hero main image",
         "children": [
-            "list-context.image-list#desktop__hero-main-slider--container"
+            "image#desktop__hero-main-image"
         ],
         "props": {
-            "blockClass": "hero__main--slider"
+            "blockClass": "hero__main--image"
         }
     },
-    "list-context.image-list#desktop__hero-main-slider--container": {
-        "title": "Container hero main list images",
-        "children": [
-            "slider-layout#desktop__hero-main-slider-container--images"
-        ],
+    "image#desktop__hero-main-image": {
+        "title": "Desktop hemor main image",
         "props": {
-            "height": 288,
+            "src": "/arquivos/hero_desktop.svg", 
+            "alt": "main image hero", 
+            "link": {
+                "url": "#", 
+                "noFollow": false, 
+                "newTab": false
+            },
             "width": "100%",
-            /*"blockClass": "fixed-top",*/
-            "images": [
-                {
-                    "image": "/arquivos/hero_desktop.svg",
-                    "description": "main image hero",
-                    "width": "100%",
-                    "link": {
-                        "props": {
-                            "label": "",
-                            "href": "#",
-                            "blockClass": "benner-desktop"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "slider-layout#desktop__hero-main-slider-container--images": {
-        "title": "Banner slider home desktop",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 1
-            }
+            "height": 288,
+            "blockClass": "desktop__hero-main-image"
         }
     }
 }

@@ -2,52 +2,34 @@
     "flex-layout.row#tablet__hero--main": {
         "title": "tablet hero main",
         "children": [
-            "flex-layout.col#tablet__hero-main--slider"
+            "flex-layout.col#tablet__hero-main--image"
         ],
         "props": {
             "blockClass": "tablet__hero--main"
         }
     },
-    "flex-layout.col#tablet__hero-main--slider": {
-        "title": "tablet hero main slider",
+    "flex-layout.col#tablet__hero-main--image": {
+        "title": "tablet hero main image",
         "children": [
-            "list-context.image-list#tablet__hero-main-slider--container"
+            "image#tablet__hero-main-image"
         ],
         "props": {
-            "blockClass": "hero__main--slider"
+            "blockClass": "hero__main--image"
         }
     },
-    "list-context.image-list#tablet__hero-main-slider--container": {
-        "title": "Container hero main list images",
-        "children": [
-            "slider-layout#tablet__hero-main-slider-container--images"
-        ],
+    "image#tablet__hero-main-image": {
+        "title": "Tablet hero main image",
         "props": {
-            "height": 428,
+            "src": "/arquivos/hero_desktop.svg", 
+            "alt": "main image hero", 
+            "link": {
+                "url": "#", 
+                "noFollow": false, 
+                "newTab": false
+            },
             "width": "100%",
-            /*"blockClass": "fixed-top",*/
-            "images": [
-                {
-                    "image": "/arquivos/hero_desktop.svg",
-                    "description": "main image hero",
-                    "width": "100%",
-                    "link": {
-                        "props": {
-                            "label": "",
-                            "href": "#",
-                            "blockClass": "benner-tablet"
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "slider-layout#tablet__hero-main-slider-container--images": {
-        "title": "Banner slider home tablet",
-        "props": {
-            "itemsPerPage": {
-                "tablet": 1
-            }
+            "height": "100%",
+            "blockClass": "tablet__hero-main-image"
         }
     }
 }

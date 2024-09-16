@@ -1,13 +1,35 @@
+.flexCol--hero__main--image {
+    align-items: center;
+}
+
+.flexRow--desktop__hero--main :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
+}
+
 .flexRow--desktop__hero--main {
     margin-top: 80px;
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
+.flexRow--tablet__hero--main :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
 }
 
 .flexRow--tablet__hero--main {
     margin-top: 33px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.flexRow--phone__hero--main :global(.vtex-store-components-3-x-container) {
+    padding: 0%;
 }
 
 .flexRow--phone__hero--main {
     margin-top: 33px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 /*---------- Desktop ------------*/
