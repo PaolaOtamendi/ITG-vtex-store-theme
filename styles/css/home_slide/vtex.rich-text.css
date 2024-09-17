@@ -36,6 +36,18 @@
     line-height: 14.52px;
 }
 
+.paragraph--ard__pre-order-title--white {
+    color: #fff;
+}
+
+.paragraph--card__pre-order-subtitle--white {
+    color: #fff;
+}
+
+.paragraph--card__pre-order-about--white {
+    color: #fff;
+}
+
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
     .paragraph--global__info--cart-about {

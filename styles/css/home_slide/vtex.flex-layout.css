@@ -58,6 +58,26 @@
     height: 243px;
 }*/
 
+/* info card five */
+.flexCol--global__home-slide-1-card--five {
+    background-image   : url("/arquivos/infocard_food_image.jpg");
+    background-size    : 324px 460px;
+    background-position: 0px 0px;
+    background-repeat  : no-repeat;
+}
+
+.flexCol--global__home-slide-1-card--six {
+    background-color: #fff;
+}
+
+.flexCol--global__home-slide-1-card--seven {
+    background-color: #fff;
+}
+
+.flexCol--global__home-slide-1-card--eight {
+    background-color: #fff;
+}
+
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
     .flexRow--global__home-slide--one {
