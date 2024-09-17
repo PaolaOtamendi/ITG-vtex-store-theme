@@ -5,6 +5,7 @@
     text-align    : center;
     color         : #1D2734;
     text-transform: lowercase;
+    text-transform: capitalize;
     display       : flex;
     align-items   : center;
 }
@@ -16,10 +17,6 @@
 .buttonText--product__summary-btn--add::after {
     content  : "Enabled";
     font-size: 12.39px;
-}
-
-.buttonText--product__summary-btn--add::first-letter {
-    text-transform: capitalize;
 }
 
 .buttonDataContainer--product__summary-btn--add::before {

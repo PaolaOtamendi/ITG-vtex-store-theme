@@ -1,0 +1,3 @@
+.infoCardCallActionContainer--categorie__tv :global(.vtex-button) :global(.vtex-button__label) {
+    text-transform: capitalize;
+}
