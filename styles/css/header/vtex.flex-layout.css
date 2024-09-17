@@ -1,6 +1,7 @@
 /*-------------- Header mobile custom --------------*/
 .flexRow--mobile__header-menu--main {
-    width: 100%;
+    width           : 100%;
+    background-color: #fff;
 }
 
 .flexRowContent--mobile__header-menu--main {

@@ -20,7 +20,6 @@
 
 .flexRow--global__top--banner {
     background: #1D2734;
-    margin-top: 19px;
 }
 
 .flexRowContent--global__top--banner {
@@ -62,10 +61,6 @@
 
     .flexRowContent--global__top--banner {
         justify-content: center;
-    }
-
-    .flexRow--global__top--banner {
-        margin-top: 20px;
     }
 
     .flexCol--global__top-banner--icon {

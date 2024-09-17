@@ -59,8 +59,9 @@
 }
 
 .container--global__shelf--product-summary {
-    box-shadow: 0px 2px 16px 0px #0000000F;
-    box-shadow: 0px 2px 8px 0px #00000014;
+    box-shadow      : 0px 2px 16px 0px #0000000F;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+    background-color: #ffff;
 }
 
 .productBrand {

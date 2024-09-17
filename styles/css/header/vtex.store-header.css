@@ -1,3 +1,18 @@
+.headerRow--dektop__header--menu {
+    margin-top   : 56px;
+    margin-bottom: 20px;
+}
+
+.headerRow--mobile__header--menu {
+    margin-top      : 40px;
+    background-color: #fff;
+    margin-bottom   : 19px;
+}
+
+.headerStickyRow--mobile__header--menu {
+    background-color: #fff;
+}
+
 .headerRowContainer--dektop__header--menu {
     justify-content: center;
 }

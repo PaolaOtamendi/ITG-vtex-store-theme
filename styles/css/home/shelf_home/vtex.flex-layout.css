@@ -21,12 +21,13 @@
 }
 
 .flexCol--global__home-card--shelf {
-    width        : 324px;
-    height       : 305px;
-    border-radius: 12px;
-    box-shadow   : 0px 2px 16px 0px #0000000F;
-    box-shadow   : 0px 2px 8px 0px #00000014;
-    margin-right : 8px;
+    width           : 324px;
+    height          : 305px;
+    border-radius   : 12px;
+    box-shadow      : 0px 2px 16px 0px #0000000F;
+    box-shadow      : 0px 2px 8px 0px #00000014;
+    margin-right    : 8px;
+    background-color: #ffff;
 }
 
 .flexRow--global__home-shelf-slide :global(.vtex-list-context-0-x-list) {
@@ -98,7 +99,7 @@
 }
 
 @media (min-width: 1281px) {
-    
+
     /* scroll custom */
     .flexRowContent--global__home-shelf-slide::-webkit-scrollbar {
         width : 8px;
