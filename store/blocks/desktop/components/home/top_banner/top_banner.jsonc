@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#desktop__home-top-banner--main": {
+        "title": "Container desktop top banner main",
+        "children": [
+            "flex-layout.row#global__top--banner"
+        ],
+        "props": {
+            "blockClass": "desktop__home-top-banner--main"
+        }
+    }
+}

@@ -98,6 +98,7 @@
 }
 
 @media (min-width: 1281px) {
+    
     /* scroll custom */
     .flexRowContent--global__home-shelf-slide::-webkit-scrollbar {
         width : 8px;

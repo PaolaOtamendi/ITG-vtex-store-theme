@@ -1,0 +1,39 @@
+/*-------------- Top banner mobile custom --------------*/
+.paragraph--text__top--banner {
+    font-size    : 9.33px;
+    font-weight  : 300;
+    line-height  : 11.67px;
+    font-family  : lexend, sans-serif;
+    color        : #B3B3B3;
+    margin       : 0px;
+    height       : 24px;
+    align-items  : center;
+}
+
+.link--text__top--banner {
+    font-size           : 9.33px;
+    font-weight         : 300;
+    line-height         : 12.44px;
+    font-family         : poppins, sans-serif;
+    color               : #FF8324;
+    display             : -webkit-inline-box;
+    -webkit-line-clamp  : 1;
+    max-width           : 72px;
+    white-space         : nowrap;
+}
+
+/*---------- Desktop ------------*/
+@media (min-width: 1025px) {
+    .paragraph--text__top--banner {
+        display: flex;
+        gap    : 8px;
+    }
+
+    .link--text__top--banner {
+        width: 75px;
+    }
+
+    .container--text__top--banner {
+        width: 452px;
+    }
+}

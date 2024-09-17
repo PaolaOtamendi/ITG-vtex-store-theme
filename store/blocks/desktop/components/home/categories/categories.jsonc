@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#desktop__home-categories--main": {
+        "title": "Container desktop categories main",
+        "children": [
+            "flex-layout.row#global__categories--home"
+        ],
+        "props": {
+            "blockClass": "desktop__home-categories--main"
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "responsive-layout.phone#home__store--phone": {
         "title": "Section home store theme phone",
         "children": [
-            "flex-layout.row#global__categories--home",
+            "flex-layout.row#phone__home-categories--main",
             "flex-layout.row#global__title-slide--1",
             "flex-layout.row#global__home-slide--one",
             "flex-layout.row#global__title-slide--2",

@@ -67,7 +67,6 @@
             "login#desktop__header-menu--login"
         ],
         "props": {
-            /*"horizontalAlign": "left",*/
             "horizontalAlign": "right",
             "verticalAlign": "middle",
             "preventHorizontalStretch": true,

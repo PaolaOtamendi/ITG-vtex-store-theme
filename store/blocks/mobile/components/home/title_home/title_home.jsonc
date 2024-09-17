@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#mobile__home-title--main": {
+        "title": "Container mobile title home main",
+        "children": [
+            "flex-layout.row#global__title--home"
+        ],
+        "props": {
+            "blockClass": "mobile__home-title--main"
+        }
+    }
+}

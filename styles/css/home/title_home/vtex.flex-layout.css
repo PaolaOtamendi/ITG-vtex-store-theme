@@ -1,3 +1,11 @@
+.flexRow--desktop__home-title--main :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+}
+
+.flexRow--mobile__home-title--main :global(.vtex-store-components-3-x-container) {
+    padding: 0px;
+}
+
 .flexRow--global__title--home {
     margin-top  : 32px;
     margin-left : 16px;
