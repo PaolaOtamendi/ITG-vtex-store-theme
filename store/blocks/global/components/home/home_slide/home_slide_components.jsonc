@@ -181,6 +181,18 @@
             "blockClass": "card__six-product--image"
         }
     },
+    "image#card__seven-product--image": {
+        "props": {
+            "src": "/arquivos/infocar_seven.svg",
+            "blockClass": "card__seven-product--image"
+        }
+    },
+    "image#card__eight-product--image": {
+        "props": {
+            "src": "/arquivos/infocar_eight.svg",
+            "blockClass": "card__eight-product--image"
+        }
+    },
 
     // Global icon info card
     "flex-layout.col#global__home-slide-1-card--icon": {
