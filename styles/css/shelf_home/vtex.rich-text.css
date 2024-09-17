@@ -1,4 +1,4 @@
-.paragraph--global__home-card--text {
+.paragraph--home__card-one--text {
     margin     : 0px;
     font-family: lexend, sans-serif;
     font-weight: 300;
@@ -8,7 +8,7 @@
     padding    : 0px 8px 0px 8px;
 }
 
-.heading--global__home-card--text {
+.heading--home__card-one--text {
     margin       : 0px;
     font-family  : lexend, sans-serif;
     font-weight  : 600;
@@ -17,10 +17,13 @@
     color        : #1D2734;
     padding      : 0px 0px 0px 8px;
     margin-bottom: 24.19px;
-    /* Validar */
 }
 
-.container--global__home-card--text {
+.container--home__card-one--text {
+    margin-top: 13.82px;
+}
+
+.container--home__card-two-text--one {
     margin-top: 13.82px;
 }
 
@@ -30,4 +33,39 @@
     display       : flex;
     flex-direction: column;
     gap           : 10.37px;
+}
+
+.wrapper--home__card-two-text--two {
+    padding-top   : 10.37px;
+    padding-bottom: 13.82px;
+}
+
+.heading--home__card-two--text {
+    margin     : 0px;
+    font-family: lexend, sans-serif;
+    font-weight: 600;
+    font-size  : 16px;
+    line-height: 24.88px;
+    color      : #1D2734;
+    padding    : 0px 0px 0px 16px;
+}
+
+.paragraph--home__card-two-text--one {
+    margin     : 0px;
+    font-family: lexend, sans-serif;
+    font-weight: 300;
+    font-size  : 10px;
+    line-height: 14.52px;
+    color      : #1D2734;
+    padding    : 0px 16px 0px 16px;
+}
+
+.paragraph--home__card-two-text--two {
+    margin     : 0px;
+    font-family: lexend, sans-serif;
+    font-weight: 300;
+    font-size  : 12px;
+    line-height: 14.52px;
+    color      : #1D2734;
+    padding    : 0px 16px 0px 16px;
 }
