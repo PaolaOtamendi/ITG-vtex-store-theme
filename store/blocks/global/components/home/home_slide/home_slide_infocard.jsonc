@@ -1,0 +1,368 @@
+{
+    // First info card
+    "flex-layout.col#global_home-infocard--one": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-one--info",
+            "flex-layout.row#global_home-infocard-one--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--one",
+                "global__home-infocard-pre--order",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-one--info": {
+        "title": "First row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order",
+            "flex-layout.col#global__infocard--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-one--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-one--image": {
+        "title": "First row info card",
+        "children": [
+            "image#card__one-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-one--image"
+        }
+    },
+
+    // Second info card
+    "flex-layout.col#global_home-infocard--two": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-two--info",
+            "flex-layout.row#global_home-infocard-two--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--two",
+                "global__home-infocard-card--store",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-two--info": {
+        "title": "second row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-card--store",
+            "flex-layout.col#global__infocard--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-two--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-two--image": {
+        "title": "second row info card",
+        "children": [
+            "image#card__two-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-two--image"
+        }
+    },
+
+    // Third info card
+    "flex-layout.col#global_home-infocard--three": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-three--info",
+            "flex-layout.row#global_home-infocard-three--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--three",
+                "global__home-infocard-pre--order",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-three--info": {
+        "title": "third row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order",
+            "flex-layout.col#global__infocard--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-three--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-three--image": {
+        "title": "third row info card",
+        "children": [
+            "image#card__three-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-three--image"
+        }
+    },
+
+    // Four info card
+    "flex-layout.col#global_home-infocard--four": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-four--info",
+            "flex-layout.row#global_home-infocard-four--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--four",
+                "global__home-infocard-card--store",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-four--info": {
+        "title": "four row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-card--store",
+            "flex-layout.col#global__infocard--icon"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-four--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-four--image": {
+        "title": "four row info card",
+        "children": [
+            "image#card__four-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-four--image"
+        }
+    },
+
+    // Five info card
+    "flex-layout.col#global_home-infocard--five": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-five--info"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--five",
+                "global__home-infocard-pre--order",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-five--info": {
+        "title": "First row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre-order--white"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-five--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+
+    // Six info card
+    "flex-layout.col#global_home-infocard--six": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-six--info",
+            "flex-layout.row#global_home-infocard-six--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--six",
+                "global__home-infocard-card--store",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-six--info": {
+        "title": "six row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-six--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-six--image": {
+        "title": "six row info card",
+        "children": [
+            "image#card__six-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-six--image"
+        }
+    },
+
+    // Seven info card
+    "flex-layout.col#global_home-infocard--seven": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-seven--info",
+            "flex-layout.row#global_home-infocard-seven--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--seven",
+                "global__home-infocard-card--store",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-seven--info": {
+        "title": "seven row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-seven--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-seven--image": {
+        "title": "seven row info card",
+        "children": [
+            "image#card__seven-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-seven--image"
+        }
+    },
+
+    // Eight info card
+    "flex-layout.col#global_home-infocard--eight": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-eight--info",
+            "flex-layout.row#global_home-infocard-eight--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--eight",
+                "global__home-infocard-card--store",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-eight--info": {
+        "title": "eight row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-eight--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-eight--image": {
+        "title": "eight row info card",
+        "children": [
+            "image#card__eight-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-eight--image"
+        }
+    },
+
+    // Nine info card
+    "flex-layout.col#global_home-infocard--nine": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-nine--info",
+            "flex-layout.row#global_home-infocard-nine--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--nine",
+                "global__home-infocard-pre--order",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-nine--info": {
+        "title": "First row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-pre--order"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-nine--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-nine--image": {
+        "title": "First row info card",
+        "children": [
+            "image#card__one-product--image"
+        ],
+        "props": {
+            "blockClass": "global_home-infocard-nine--image"
+        }
+    },
+
+    // Ten info card
+    "flex-layout.col#global_home-infocard--ten": {
+        "title": "Container info card slider",
+        "children": [
+            "flex-layout.row#global_home-infocard-ten--info",
+            "flex-layout.row#global_home-infocard-ten--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard--ten",
+                "global__home-infocard-pre--order",
+                "global__home-slide--infocard"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-ten--info": {
+        "title": "First row info card",
+        "children": [
+            "flex-layout.col#global__infocard-text-card--store"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-ten--info",
+                "global__home-card--info"
+            ]
+        }
+    },
+    "flex-layout.row#global_home-infocard-ten--image": {
+        "title": "First row info card",
+        "children": [
+            "image#card__four-product--image"
+        ],
+        "props": {
+            "blockClass": [
+                "global_home-infocard-ten--image",
+                "global_home-infocard-four--image"
+            ]
+        }
+    }
+}

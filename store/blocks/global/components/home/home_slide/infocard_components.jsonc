@@ -1,6 +1,6 @@
 {
-    // Info card containers text slide 1
-    "flex-layout.col#global__home-slide-1-card-pre--order": {
+    // Info card pre order containers text
+    "flex-layout.col#global__infocard-text-pre--order": {
         "title": "Title info card",
         "children": [
             "rich-text#card__pre-order--title",
@@ -9,8 +9,8 @@
         ],
         "props": {
             "blockClass": [
-                "first__info--card-text",
-                "global__slide--1-info-card-text"
+                "global__infocard-text-pre--order",
+                "global__infocard-container--text"
             ]
         }
     },
@@ -28,7 +28,7 @@
     "rich-text#card__pre-order--subtitle": {
         "title": "Subtitle info card",
         "props": {
-            "text": "Pre-order now.",
+            "text": "[Pre-order now.]()",
             "blockClass": [
                 "card__pre-order--subtitle",
                 "global__card-pre-order--text",
@@ -48,7 +48,8 @@
         }
     },
 
-    "flex-layout.col#global__home-slide-1-card--store": {
+    // Info card store containers text
+    "flex-layout.col#global__infocard-text-card--store": {
         "title": "Title info card",
         "children": [
             "rich-text#card__store--title",
@@ -57,8 +58,8 @@
         ],
         "props": {
             "blockClass": [
-                "global__home-slide-1-card--store",
-                "global__slide--1-info-card-text"
+                "global__infocard-text-card--store",
+                "global__infocard-container--text"
             ]
         }
     },
@@ -76,7 +77,7 @@
     "rich-text#card__store--subtitle": {
         "title": "Subtitle info card",
         "props": {
-            "text": "Valencia Store",
+            "text": "[Valencia Store]()",
             "blockClass": [
                 "card__store--subtitle",
                 "global__card--store-text",
@@ -96,7 +97,8 @@
         }
     },
 
-    "flex-layout.col#global__home-slide-1-card-pre-order--white": {
+    // Info card store containers text in white
+    "flex-layout.col#global__infocard-text-pre-order--white": {
         "title": "Title info card",
         "children": [
             "rich-text#card__pre-order-title--white",
@@ -105,8 +107,8 @@
         ],
         "props": {
             "blockClass": [
-                "first__info--card-text",
-                "global__slide--1-info-card-text"
+                "global__infocard-text-pre-order--white",
+                "global__infocard-container--text"
             ]
         }
     },
@@ -124,7 +126,7 @@
     "rich-text#card__pre-order-subtitle--white": {
         "title": "Subtitle info card",
         "props": {
-            "text": "Pre-order now.",
+            "text": "[Pre-order now.]()",
             "blockClass": [
                 "card__pre-order-subtitle--white",
                 "global__card-pre-order--text",
@@ -169,7 +171,7 @@
             "blockClass": "card__four-product--image"
         }
     },
-    /*"image#card__five-product--image": {
+    /*"image#card__five-product--image": { // Dont need, only if change custom stlyes
         "props": {
             "src": "/arquivos/infocard_food_image.jpg",
             "blockClass": "card__five-product--image"
@@ -195,13 +197,13 @@
     },
 
     // Global icon info card
-    "flex-layout.col#global__home-slide-1-card--icon": {
+    "flex-layout.col#global__infocard--icon": {
         "title": "Container icon info card",
         "children": [
             "image#icon__info--card"
         ],
         "props": {
-            "blockClass": "global__home-slide-1-card--icon"
+            "blockClass": "global__infocard--icon"
         }
     },
     "image#icon__info--card": {

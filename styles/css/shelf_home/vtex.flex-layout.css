@@ -15,6 +15,11 @@
     overflow-y    : hidden;
 }
 
+.flexCol--global__infocard-container--text {
+    gap         : 10.37px;
+    padding-left: 8px;
+}
+
 .flexCol--global__home-card--shelf {
     width        : 324px;
     height       : 305px;
@@ -89,5 +94,26 @@
 @media (min-width: 1025px) {
     .flexRow--global__home-shelf-slide {
         margin-left: 72px;
+    }
+}
+
+@media (min-width: 1281px) {
+    /* scroll custom */
+    .flexRowContent--global__home-shelf-slide::-webkit-scrollbar {
+        width : 8px;
+        height: 6px;
+    }
+
+    .flexRowContent--global__home-shelf-slide::-webkit-scrollbar-thumb {
+        background-color: #88888887;
+        border-radius   : 4px;
+    }
+
+    .flexRowContent--global__home-shelf-slide::-webkit-scrollbar-thumb:hover {
+        background-color: #6a6a6a88;
+    }
+
+    .flexRowContent--global__home-shelf-slide::-webkit-scrollbar-track {
+        background: #f1f1f14d;
     }
 }
