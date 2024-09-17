@@ -6,6 +6,10 @@
     font-family: lexend, sans-serif;
 }
 
+.styledLinkContent--desktop__header-menu--websites:hover {
+    text-decoration: underline;
+}
+
 .styledLinkContainer--desktop__header-menu--websites {
     margin : 0;
     padding: 0;

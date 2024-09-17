@@ -48,6 +48,25 @@
     color: #fff;
 }
 
+.link--global__info--cart-subtitle {
+    text-decoration: none;
+}
+
+.link--card__pre-order--subtitle {
+    color: #1D2734;
+    cursor: pointer;
+}
+
+.link--card__store--subtitle {
+    color: #ffff;
+    cursor: pointer;
+}
+
+.link--card__pre-order-subtitle--white {
+    color: #ffff;
+    cursor: pointer;
+}
+
 /*---------- Desktop ------------*/
 @media (min-width: 1025px) {
     .paragraph--global__info--cart-about {
