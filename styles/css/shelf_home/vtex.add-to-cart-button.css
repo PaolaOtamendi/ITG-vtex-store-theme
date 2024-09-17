@@ -14,7 +14,7 @@
 }
 
 .buttonText--product__summary-btn--add::after {
-    content  : "Enable";
+    content  : "Enabled";
     font-size: 12.39px;
 }
 

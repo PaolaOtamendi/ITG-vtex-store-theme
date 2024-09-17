@@ -32,6 +32,7 @@
         }
     },
     "product-summary.shelf#global__shelf--product-summary": {
+        "title": "Global shelf produc summary one",
         "children": [
             "flex-layout.row#shelf__product-summary--bages",
             "flex-layout.col#shelf__product-summary--image",
@@ -82,56 +83,112 @@
     
     // Section 2
     "flex-layout.row#global__home-shelf-slide--2": {
+        "title": "Container Golbal home shelf slide 2",
         "children": [
             "flex-layout.col#global__home--card-two",
-            "list-context.product-list#global__home--two"
+            "list-context.product-list#global__home-shelf--two"
         ],
         "props": {
             "blockClass": [
-                "global__home-shelf-slide--1",
+                "global__home-shelf-slide--2",
                 "global__home-shelf-slide"
             ],
             "colSizing": "auto"
         }
     },
-    "list-context.product-list#global__home--two": {
+    "list-context.product-list#global__home-shelf--two": {
+        "title": "Global home shelf two",
         "blocks": [
-            "product-summary.shelf#global__shelf--product-summary-2"
+            "product-summary.shelf#home__shelf-product-summary--two"
         ],
         "children": [
-            "list-context-renderer#global__shelf--render"
+            "list-context-renderer#global__shelf--render-two"
         ],
         "props": {
-            "blockClass": "global__home--two"
+            "blockClass": [
+                "global__home-shelf--two",
+                "global__home-shelf--one"
+            ]
         }
     },
-    "product-summary.shelf#global__shelf--product-summary-2": {
+    "list-context-renderer#global__shelf--render-two": {
+        "props": {
+            "listElement": "div",
+            "blockClass": [
+                "global__shelf--render",
+                "global__shelf--render-two"
+            ]
+        }
+    },
+    "product-summary.shelf#home__shelf-product-summary--two": {
+        "title": "Global shelf produc summary two",
         "children": [
-            "product-summary-image",
-            "product-summary-name",
-            "product-summary-price",
-            "product-summary-buy-button"
-        ]
+            "flex-layout.row#shelf__product-summary--bages",
+            "flex-layout.col#shelf__product-summary--image",
+            "flex-layout.col#shelf__product-summary-name",
+            "flex-layout.col#shelf__product-summary-prices",
+            "flex-layout.col#shelf__product-summary-highligths",
+            "flex-layout.col#shelf__product-summary-add-to-cart"
+        ],
+        "props": {
+            "width": 176,
+            "showDiscountBadge": false,
+            "showSavingPercentage": true,
+            "blockClass": [
+                "global__shelf--product-summary",
+                "home__shelf-product-summary--two"]
+        }
     },
     "flex-layout.col#global__home--card-two": {
-        "title": "",
+        "title": "Global home card two",
         "children": [
-            "rich-text#home__card-two--text",
+            /*"rich-text#home__card-two--text",*/
+            "rich-text#home__card-two-text--one",
+            "rich-text#home__card-two-text--two",
             "image#home__card-two--image"
         ],
         "props": {
-            "blockClass": "global__home--card-one"
+            "blockClass": [
+                "global__home--card-one",
+                "global__home-card--shelf"
+            ]
         }
     },
-    "rich-text#home__card-two--text": {
+    /*"rich-text#home__card-two--text": {
         "props": {
-            "text": "VALENTINE’S DAY \n ## GiftsCard for your love \n ."
+            "text": "BLACK DAYS \n ## 50% discount on music \n Disfruta millones de canciones en audio Lossless sin costo adicional.",
+            "blockClass": [
+                "home__card-two--text",
+                "global__home-card--text"
+            ]
+        }
+    },*/
+    "rich-text#home__card-two-text--one": {
+        "props": {
+            "text": "BLACK DAYS \n ## 50% discount on music",
+            "blockClass": [
+                "home__card-two-text--one",
+                "home__card-two--text",
+                "global__home-card--text"
+            ]
+        }
+    },
+    "rich-text#home__card-two-text--two": {
+        "props": {
+            "text": "Disfruta millones de canciones en audio Lossless sin costo adicional.",
+            "blockClass": [
+                "home__card-two-text--two",
+                "home__card-two--text",
+                "global__home-card--text"
+            ]
         }
     },
     "image#home__card-two--image": {
         "props": {
-            "src": "/arquivos/gifs_card.svg",
-            "blockClass": ""
+            "src": "/arquivos/discount_card.svg",
+            "maxHeight": 217,
+            "maxWidth": 324,
+            "blockClass": "home__card-one--image"
         }
     }
 }
