@@ -1,4 +1,5 @@
 {
+    // Shelf product summary components
     "flex-layout.row#shelf__product-summary--bages": {
         "title": "shelf product summary bages",
         "children": [

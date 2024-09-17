@@ -1,4 +1,4 @@
-.paragraph--global__title__slide-1--text {
+.paragraph--global__title__slide--text {
     margin     : 0px;
     font-family: lexend, sans-serif;
     font-size  : 20px;
@@ -7,35 +7,12 @@
     color      : #1D2734;
 }
 
-.strong--global__title__slide-1--text {
+.strong--global__title__slide--text {
     font-weight: 500;
-}
-
-.paragraph--global__title__slide-2--text {
-    margin     : 0px;
-    font-family: lexend, sans-serif;
-    font-size  : 20px;
-    line-height: 24px;
-    font-weight: 300;
-    color      : #1D2734;
 }
 
 .strong--global__title__slide-2--text {
-    font-weight: 500;
     color      : #6D00cc;
-}
-
-.paragraph--global__title__slide-3--text {
-    margin     : 0px;
-    font-family: lexend, sans-serif;
-    font-size  : 20px;
-    line-height: 24px;
-    font-weight: 300;
-    color      : #1D2734;
-}
-
-.strong--global__title__slide-3--text {
-    font-weight: 500;
 }
 
 /*---------- Desktop ------------*/

@@ -142,7 +142,6 @@
     "flex-layout.col#global__home--card-two": {
         "title": "Global home card two",
         "children": [
-            /*"rich-text#home__card-two--text",*/
             "rich-text#home__card-two-text--one",
             "rich-text#home__card-two-text--two",
             "image#home__card-two--image"
@@ -154,15 +153,6 @@
             ]
         }
     },
-    /*"rich-text#home__card-two--text": {
-        "props": {
-            "text": "BLACK DAYS \n ## 50% discount on music \n Disfruta millones de canciones en audio Lossless sin costo adicional.",
-            "blockClass": [
-                "home__card-two--text",
-                "global__home-card--text"
-            ]
-        }
-    },*/
     "rich-text#home__card-two-text--one": {
         "props": {
             "text": "BLACK DAYS \n ## 50% discount on music",

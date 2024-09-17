@@ -96,6 +96,54 @@
         }
     },
 
+    "flex-layout.col#global__home-slide-1-card-pre-order--white": {
+        "title": "Title info card",
+        "children": [
+            "rich-text#card__pre-order-title--white",
+            "rich-text#card__pre-order-subtitle--white",
+            "rich-text#card__pre-order-about--white"
+        ],
+        "props": {
+            "blockClass": [
+                "first__info--card-text",
+                "global__slide--1-info-card-text"
+            ]
+        }
+    },
+    "rich-text#card__pre-order-title--white": {
+        "title": "Title info card",
+        "props": {
+            "text": "APPLE WATCH SERIES 9",
+            "blockClass": [
+                "ard__pre-order-title--white",
+                "global__card-pre-order--text",
+                "global__info--cart-title"
+            ]
+        }
+    },
+    "rich-text#card__pre-order-subtitle--white": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Pre-order now.",
+            "blockClass": [
+                "card__pre-order-subtitle--white",
+                "global__card-pre-order--text",
+                "global__info--cart-subtitle"
+            ]
+        }
+    },
+    "rich-text#card__pre-order-about--white": {
+        "title": "Subtitle info card",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": [
+                "card__pre-order-about--white",
+                "global__card-pre-order--text",
+                "global__info--cart-about"
+            ]
+        }
+    },
+
     // Images info cards
     "image#card__one-product--image": {
         "props": {
@@ -119,6 +167,18 @@
         "props": {
             "src": "/arquivos/card_element_desk.svg",
             "blockClass": "card__four-product--image"
+        }
+    },
+    /*"image#card__five-product--image": {
+        "props": {
+            "src": "/arquivos/infocard_food_image.jpg",
+            "blockClass": "card__five-product--image"
+        }
+    },*/
+    "image#card__six-product--image": {
+        "props": {
+            "src": "/arquivos/infocar_six_image.svg",
+            "blockClass": "card__six-product--image"
         }
     },
 
