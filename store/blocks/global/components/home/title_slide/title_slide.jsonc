@@ -90,5 +90,28 @@
                 "global__title__slide--text"
             ]
         }
+    },
+
+    "flex-layout.row#global__title-slide--5": {
+        "title": "Container global title slider",
+        "children": [
+            "rich-text#global__title__slide-5--text"
+        ],
+        "props": {
+            "blockClass": [
+                "global__title-slide--5",
+                "global__title-slide--home"
+            ]
+        }
+    },
+    "rich-text#global__title__slide-5--text": {
+        "title": "Title slider text",
+        "props": {
+            "text": "**An amazing product**. La mejor manera de comprar lo que amas",
+            "blockClass": [
+                "global__title__slide-5--text",
+                "global__title__slide--text"
+            ]
+        }
     }
 }
