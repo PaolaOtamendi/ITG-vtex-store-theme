@@ -21,8 +21,7 @@
 
 .buttonDataContainer--product__summary-btn--add::before {
     content: url("/arquivos/button_cart.png");
-    width  : 15.48px;
-    height : 15.48px;
+    background-size: 15.48px;
 }
 
 .buttonDataContainer--product__summary-btn--add {
