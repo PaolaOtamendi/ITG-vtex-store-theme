@@ -5,3 +5,15 @@
 .logoContainer--mobile__header-menu-section--one--logo {
     padding: 0px;
 }
+
+.searchBarContainer {
+    padding: 0%;
+}
+
+.autoCompleteOuterContainer--global__search-bar--overlay :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+}
+
+.suffixWrapper--global__search-bar--overlay {
+    display: none;
+}

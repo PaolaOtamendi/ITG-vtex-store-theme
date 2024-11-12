@@ -1,0 +1,38 @@
+.container--global__home-search-bar--overlay {
+    padding         : 0%;
+    border          : transparent;
+    border-color    : transparent;
+    background-color: transparent;
+}
+
+.container--global__home-search-bar--overlay {
+    width   : 70%;
+    left    : 100px;
+    position: relative;
+}
+
+.container--global__home-search-bar--overlay :global(.vtex-styleguide-9-x-input) {
+    padding     : 0%;
+    padding-left: 16px;
+    font-family : lexend, sans-serif;
+    font-weight : 300;
+    font-size   : 12px;
+    line-height : 15px;
+    color       : #1D2734;
+    width       : 250px !important;
+}
+
+.container--global__home-search-bar--overlay :global(.vtex-input__suffix) {
+    padding: 0%;
+}
+
+.container--global__home-search-bar--overlay :global(.vtex-styleguide-9-x-input) {
+    padding     : 0%;
+    padding-left: 16px;
+    font-family : lexend, sans-serif;
+    font-weight : 300;
+    font-size   : 12px;
+    line-height : 15px;
+    color       : #1D2734;
+    width       : 250px !important;
+}
